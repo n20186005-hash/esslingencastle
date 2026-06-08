@@ -3,8 +3,8 @@ import { MetadataRoute } from 'next';
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://jardimluisdecamoes.com';
-  const locales = ['zh', 'en', 'pt', 'mwl'];
+  const baseUrl = 'https://esslingencastle.com';
+  const locales = ['zh', 'en', 'de'];
   const routes = ['', '/privacy-policy', '/terms-of-service', '/cookie-settings'];
 
   const sitemap: MetadataRoute.Sitemap = [];

@@ -1,7 +1,7 @@
 esslingen-castle
 
 我们网站是
-
+esslingencastle.com
 检查下有没有错误
 
 
@@ -53,13 +53,17 @@ J
 邮政编码*：
 
 
+国家/地区 (Country/Region)：德国 / Germany
 
-国家/地区：
-地址：
-城市：
-省/自治区/直辖市：
-邮政编码：
+地址 (Address)：埃斯林根堡 / Esslinger Burg
 
+地址 2 (Address 2)：（可留空 / Leave blank）
+
+城市 (City)：内卡河畔埃斯林根 / Esslingen am Neckar
+
+省/自治区/直辖市 (State/Province/Municipality)：巴登-符腾堡州 / Baden-Württemberg
+
+邮政编码 (Postal Code)：73728
 
 
 
