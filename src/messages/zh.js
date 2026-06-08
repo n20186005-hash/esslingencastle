@@ -98,6 +98,8 @@ export default {
     "googleRating": "谷歌评分",
     "address": "地址",
     "addressValue": "Esslinger Burg, 73728 Esslingen am Neckar, 德国",
+    "phone": "电话",
+    "phoneValue": "+4971141111700",
     "plusCode": "Plus 代码",
     "plusCodeValue": "P8V5+XP 内卡河畔埃斯林根 德国"
   },

@@ -72,6 +72,8 @@ export default {
     "googleRating": "Google Rating",
     "address": "Adresse",
     "addressValue": "Esslinger Burg, 73728 Esslingen am Neckar, Deutschland",
+    "phone": "Telefon",
+    "phoneValue": "+4971141111700",
     "plusCode": "Plus Code",
     "plusCodeValue": "P8V5+XP Esslingen am Neckar Deutschland"
   },
