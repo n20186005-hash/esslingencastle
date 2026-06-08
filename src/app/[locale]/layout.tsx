@@ -14,7 +14,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const messages = (await import(`@/messages/${locale}.json`)).default;
+  const messages = (await import(`@/messages/${locale}.js`)).default;
   const baseUrl = 'https://jardimluisdecamoes.com';
 
   const zhUrl = `${baseUrl}/zh`;
