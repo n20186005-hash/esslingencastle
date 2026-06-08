@@ -465,8 +465,8 @@ export default {
         "url": "https://www.denkmalpflege-bw.de/"
       },
       "heidelberg_denkmal": {
-        "name": "海德堡市文物保护局",
-        "url": "https://www.heidelberg.de/HD/Leben/Denkmalschutz.html"
+        "name": "埃斯林根市政府",
+        "url": "https://www.esslingen.de/start"
       },
       "bauforschung": {
         "name": "巴符州建筑研究与修复数据库",

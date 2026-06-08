@@ -297,8 +297,8 @@ export default {
         "url": "https://www.denkmalpflege-bw.de/"
       },
       "heidelberg_denkmal": {
-        "name": "Heidelberg Monument Protection",
-        "url": "https://www.heidelberg.de/HD/Leben/Denkmalschutz.html"
+        "name": "Esslingen City Council",
+        "url": "https://www.esslingen.de/start"
       },
       "bauforschung": {
         "name": "Building Research Database BW",

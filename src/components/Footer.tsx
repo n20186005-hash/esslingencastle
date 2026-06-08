@@ -7,7 +7,7 @@ const officialLinks = [
   { name: '德国数字图书馆文化遗产库', url: 'https://www.deutsche-digitale-bibliothek.de/' },
   { name: '德国联邦政府', url: 'https://www.bundesregierung.de/breg-de' },
   { name: '巴登-符腾堡州文物保护局', url: 'https://www.denkmalpflege-bw.de/' },
-  { name: '海德堡市文物保护局', url: 'https://www.heidelberg.de/HD/Leben/Denkmalschutz.html' },
+  { name: '埃斯林根市政府', url: 'https://www.esslingen.de/start' },
   { name: '巴符州建筑研究与修复数据库', url: 'https://www.bauforschung-bw.de/' },
   { name: '德国联邦外交部', url: 'https://www.auswaertiges-amt.de/' },
 ];
