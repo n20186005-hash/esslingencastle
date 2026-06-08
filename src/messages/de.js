@@ -1,41 +1,41 @@
-{
+export default {
   "meta": {
-    "title": "Esslingen Castle | Esslinger Burg",
-    "description": "Explore the complete guide to Esslingen Castle in Baden-Württemberg, Germany."
+    "title": "Esslinger Burg | Reiseführer",
+    "description": "Entdecken Sie die Esslinger Burg in Baden-Württemberg, Deutschland."
   },
   "header": {
-    "home": "Home",
-    "gallery": "Gallery",
-    "reviews": "Reviews",
-    "map": "Map",
-    "backToHome": "Back to Home"
+    "home": "Startseite",
+    "gallery": "Galerie",
+    "reviews": "Bewertungen",
+    "map": "Karte",
+    "backToHome": "Zurück zur Startseite"
   },
   "hero": {
-    "title": "Esslingen Castle",
-    "subtitle": "Esslingen · Germany",
+    "title": "Esslinger Burg",
+    "subtitle": "Esslingen am Neckar · Deutschland",
     "rating": "4.7",
     "reviewCount": "5,712",
-    "hours": "Open 24 Hours",
-    "openMaps": "View Location"
+    "hours": "24 Stunden geöffnet",
+    "openMaps": "Standort ansehen"
   },
   "intro": {
-    "title": "Explore Esslingen Castle",
-    "description": "Esslingen Castle (Esslinger Burg) is a historic landmark located in Esslingen am Neckar, Baden-Württemberg, Germany. As a major icon of the city, it offers both immense historical value and a perfect vantage point for admiring the city's scenery.",
+    "title": "Entdecken Sie die Esslinger Burg",
+    "description": "Die Esslinger Burg ist ein historisches Wahrzeichen in Esslingen am Neckar, Baden-Württemberg, Deutschland. Als eines der wichtigsten Symbole der Stadt bietet sie nicht nur einen großen historischen Wert, sondern auch den perfekten Aussichtspunkt, um das Stadtbild zu bewundern.",
     "visitGuide": {
       "title": "Visiting Tips",
       "items": [
-        "Free and open all day, visit anytime for a walk or photography",
-        "Early morning or late afternoon is recommended for the best lighting",
-        "Dress warmly as it can be windy on the bridge",
-        "Plenty of cafes and traditional German restaurants nearby"
+        "Rund um die Uhr kostenlos zugänglich, jederzeit für einen Spaziergang oder Fotos geöffnet",
+        "Frühmorgens oder am späten Nachmittag für das beste Licht empfohlen",
+        "Ziehen Sie sich warm an, da es auf der Brücke windig sein kann",
+        "Viele Cafés und traditionelle deutsche Restaurants in der Nähe"
       ]
     },
     "alsoKnownAs": {
       "title": "Highlights",
       "items": [
-        "Historical Architecture: An iconic stone bridge over the Neckar River with a rich history and exquisite sculptures.",
-        "Perfect Vantage Point: Offers a perfect panoramic view of Heidelberg Castle and the old town.",
-        "Central Location: Adjacent to Heidelberg's old town, within walking distance to multiple surrounding attractions."
+        "Historische Architektur: Eine ikonische Steinbrücke über den Neckar mit einer reichen Geschichte und exquisiten Skulpturen.",
+        "Perfekter Aussichtspunkt: Bietet einen perfekten Panoramablick auf das Heidelberger Schloss und die Altstadt.",
+        "Zentrale Lage: Direkt an der Heidelberger Altstadt, viele Sehenswürdigkeiten sind zu Fuß erreichbar."
       ]
     }
   },
@@ -60,20 +60,20 @@
     ]
   },
   "basicInfo": {
-    "title": "Basic Information",
-    "officialName": "Official Name",
+    "title": "Basisinformationen",
+    "officialName": "Offizieller Name",
     "officialNameValue": "Esslinger Burg",
-    "type": "Attraction Type",
-    "typeValue": "Historical Landmark",
-    "country": "Country",
-    "countryValue": "Germany",
-    "city": "City",
+    "type": "Kategorie",
+    "typeValue": "Historisches Wahrzeichen",
+    "country": "Land",
+    "countryValue": "Deutschland",
+    "city": "Stadt",
     "cityValue": "Esslingen am Neckar",
     "googleRating": "Google Rating",
-    "address": "Address",
-    "addressValue": "Esslinger Burg, 73728 Esslingen am Neckar, Germany",
+    "address": "Adresse",
+    "addressValue": "Esslinger Burg, 73728 Esslingen am Neckar, Deutschland",
     "plusCode": "Plus Code",
-    "plusCodeValue": "P8V5+XP Esslingen am Neckar Germany"
+    "plusCodeValue": "P8V5+XP Esslingen am Neckar Deutschland"
   },
   "hours": {
     "title": "Opening Hours",
@@ -119,7 +119,7 @@
   },
   "route": {
     "title": "Visiting Route",
-    "overview": "Heidelberg Old Town Walking Route",
+    "overview": "Heidelberger Altstadt Spaziergang",
     "steps": [
       "Arrive at Jardim Luís de Camões to admire the Camões statue and fountain",
       "Take a break on a garden bench and enjoy the urban greenery",
@@ -139,8 +139,8 @@
     "title": "Photo Spots",
     "spots": [
       {
-        "name": "Old Bridge Statues",
-        "desc": "Capture the iconic bronze statues with the old town in the background"
+        "name": "Alte Brücke Statuen",
+        "desc": "Fotografieren Sie die ikonischen Bronzestatuen mit der Altstadt im Hintergrund"
       },
       {
         "name": "Fountain and Greenery",
@@ -151,8 +151,8 @@
         "desc": "Capture the laid-back daily life of the locals"
       },
       {
-        "name": "Distant View of Heidelberg Castle",
-        "desc": "Look up at the majestic Heidelberg Castle from the bridge"
+        "name": "Blick auf das Heidelberger Schloss",
+        "desc": "Blicken Sie von der Brücke zum majestätischen Heidelberger Schloss hinauf"
       }
     ],
     "tips": "Photography Tips",
@@ -178,12 +178,12 @@
       }
     ],
     "supplements": "Accommodation Notes",
-    "supplementsContent": "There are numerous highly-rated local restaurants around Heidelberg where you can taste traditional German cuisine.",
+    "supplementsContent": "Rund um Heidelberg gibt es zahlreiche hoch bewertete lokale Restaurants, in denen Sie traditionelle deutsche Küche probieren können.",
     "supplementsTitle": "Local Cuisine"
   },
   "gallery": {
-    "title": "Stunning Photos",
-    "subtitle": "Charming Scenery of Old Bridge Heidelberg",
+    "title": "Wunderschöne Fotos",
+    "subtitle": "Bezaubernde Landschaft der Alten Brücke Heidelberg",
     "captions": [
       "Camões Statue",
       "Garden Fountain",
@@ -206,13 +206,13 @@
       "Water Feature",
       "Locals Relaxing"
     ],
-    "viewAll": "View more photos on Google Maps",
-    "showAllPhotos": "Show All Photos"
+    "viewAll": "Mehr Fotos auf Google Maps ansehen",
+    "showAllPhotos": "Alle Fotos anzeigen"
   },
   "reviews": {
-    "title": "Visitor Reviews",
-    "declaration": "Review information can be viewed via Google Maps (external link).",
-    "moreReviews": "View More Reviews on Google Maps",
+    "title": "Besertungen",
+    "declaration": "Bewertungsinformationen können über Google Maps eingesehen werden (externer Link).",
+    "moreReviews": "Mehr Bewertungen auf Google Maps ansehen",
     "items": [
       {
         "name": "João Silva",
@@ -265,51 +265,51 @@
     ]
   },
   "mapSection": {
-    "title": "Transportation Guide",
-    "subtitle": "Esslinger Burg, 73728 Esslingen am Neckar, Germany",
-    "openMaps": "View on Google Maps"
+    "title": "Anfahrt",
+    "subtitle": "Esslinger Burg, 73728 Esslingen am Neckar, Deutschland",
+    "openMaps": "Auf Google Maps ansehen"
   },
   "footer": {
-    "rights": "© 2026 Esslingen Castle. All rights reserved.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "cookies": "Cookie Settings",
-    "officialResourcesTitle": "Related Resources & Information",
+    "rights": "© 2026 Esslinger Burg. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "cookies": "Cookie-Einstellungen",
+    "officialResourcesTitle": "Verwandte Ressourcen & Informationen",
     "officialLinks": {
       "germany_travel": {
-        "name": "German National Tourist Board",
+        "name": "Deutsche Zentrale für Tourismus",
         "url": "https://www.germany.travel/en/home.html"
       },
       "bw_tourism": {
-        "name": "Baden-Württemberg Tourism",
+        "name": "Tourismus Baden-Württemberg",
         "url": "https://www.visit-bw.com/de"
       },
       "digital_library": {
-        "name": "German Digital Library",
+        "name": "Deutsche Digitale Bibliothek",
         "url": "https://www.deutsche-digitale-bibliothek.de/"
       },
       "bundesregierung": {
-        "name": "Federal Government of Germany",
+        "name": "Bundesregierung",
         "url": "https://www.bundesregierung.de/breg-de"
       },
       "denkmalpflege": {
-        "name": "State Office for Monument Preservation BW",
+        "name": "Landesamt für Denkmalpflege BW",
         "url": "https://www.denkmalpflege-bw.de/"
       },
       "heidelberg_denkmal": {
-        "name": "Heidelberg Monument Protection",
+        "name": "Denkmalschutz Heidelberg",
         "url": "https://www.heidelberg.de/HD/Leben/Denkmalschutz.html"
       },
       "bauforschung": {
-        "name": "Building Research Database BW",
+        "name": "Bauforschungsdatenbank BW",
         "url": "https://www.bauforschung-bw.de/"
       },
       "auswaertiges": {
-        "name": "Federal Foreign Office",
+        "name": "Auswärtiges Amt",
         "url": "https://www.auswaertiges-amt.de/"
       }
     },
-    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions."
+    "disclaimer": "Diese Website ist ein unabhängiges Informationsprojekt von Dritten."
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -409,4 +409,4 @@
     "title": "About Jardim Luís de Camões",
     "text": "Jardim Luís de Camões is an important memorial garden in the center of Leiria, managed and maintained by the Leiria City Council (Câmara Municipal de Leiria)."
   }
-}
+};
