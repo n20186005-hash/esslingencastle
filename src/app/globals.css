@@ -94,6 +94,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 12px;
 }
 
+/* Remove native <summary> disclosure markers on FAQ accordions */
+details summary::-webkit-details-marker,
+details summary::marker {
+  display: none;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;

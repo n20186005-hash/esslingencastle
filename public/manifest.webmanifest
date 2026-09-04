@@ -1,0 +1,29 @@
+{
+  "name": "Esslinger Burg · Esslingen am Neckar – Visitor Guide",
+  "short_name": "Esslinger Burg",
+  "description": "Independent visitor guide to Esslinger Burg (Esslingen Castle) in Esslingen am Neckar, Germany – panorama view, history, photos and practical tips.",
+  "id": "/de/",
+  "start_url": "/de/",
+  "scope": "/",
+  "lang": "de",
+  "dir": "ltr",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#faf8f4",
+  "theme_color": "#3a7a8d",
+  "categories": ["travel", "education", "lifestyle"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

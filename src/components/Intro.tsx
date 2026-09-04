@@ -19,10 +19,21 @@ export default function Intro() {
         <div className="w-12 h-0.5 mb-8" style={{ background: 'var(--accent)' }} />
 
         <p
-          className="text-lg leading-relaxed mb-12"
+          className="text-lg leading-relaxed mb-5"
           style={{ color: 'var(--text-secondary)' }}
         >
           {t('description')}
+        </p>
+
+        <p
+          className="text-base leading-relaxed mb-12 px-5 py-4 rounded-r-xl"
+          style={{
+            color: 'var(--text-secondary)',
+            background: 'var(--bg-tertiary)',
+            borderLeft: '3px solid var(--accent)',
+          }}
+        >
+          {t('semantic')}
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

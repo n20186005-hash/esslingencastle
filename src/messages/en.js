@@ -1,61 +1,63 @@
 export default {
   "meta": {
-    "title": "Esslingen Castle | Esslinger Burg",
-    "description": "Explore the complete guide to Esslingen Castle in Baden-Württemberg, Germany."
+    "title": "Esslingen Castle – The #1 Attraction in Esslingen am Neckar",
+    "description": "Visit the historic Esslinger Burg! Enjoy the best panoramic views over Esslingen's old town, the Burggarten & fortifications. Free entry & perfect for day trips. Find out more!"
   },
   "header": {
     "home": "Home",
     "gallery": "Gallery",
     "reviews": "Reviews",
     "map": "Map",
-    "backToHome": "Back to Home"
+    "backToHome": "Back to Home",
+    "homeKeyword": "Esslinger Burg attractions"
   },
   "hero": {
     "title": "Esslingen Castle",
     "subtitle": "Esslingen · Germany",
     "rating": "4.7",
-    "reviewCount": "5,712",
-    "hours": "Open 24 Hours",
+    "reviewCount": "5,857",
+    "hours": "Free & Always Open",
     "openMaps": "View Location"
   },
   "intro": {
-    "title": "Explore Esslingen Castle",
-    "description": "Esslingen Castle (Esslinger Burg) is a historic landmark located in Esslingen am Neckar, Baden-Württemberg, Germany. As a major icon of the city, it offers both immense historical value and a perfect vantage point for admiring the city's scenery.",
+    "title": "Explore Esslinger Burg",
+    "description": "Esslinger Burg is not a classic castle but an outstanding landmark above the old town of Esslingen am Neckar in Baden-Württemberg. Built as the northernmost bastion of the medieval city fortifications, it offers the best panoramic views over the half-timbered houses, the Neckar valley and the vineyards – and it is free to visit all year round.",
+    "semantic": "Esslinger Burg – widely known to international visitors as Esslingen Castle – is the official name of the medieval fortification above Esslingen am Neckar in Baden-Württemberg, Germany. Location: Esslinger Burg → Esslingen am Neckar → Baden-Württemberg → Germany. From the Burgplatz you can comfortably reach the old town's main sights on foot, such as the Marktplatz with its historic Town Hall and the Gothic St. Dionys Church.",
     "visitGuide": {
       "title": "Visiting Tips",
       "items": [
-        "Free and open all day, visit anytime for a walk or photography",
-        "Early morning or late afternoon is recommended for the best lighting",
-        "Dress warmly as it can be windy on the bridge",
-        "Plenty of cafes and traditional German restaurants nearby"
+        "Castle grounds, the Burggarten and Burgplatz are free and open around the clock",
+        "The climb up the covered Burgstaffel staircase (332 steps) is worth it – the Steige path through the vineyards is the easier option",
+        "Wear sturdy shoes: the paths and steps are steep, but the view makes up for every effort",
+        "Plenty of cafés and Swabian restaurants await you in Esslingen's old town"
       ]
     },
     "alsoKnownAs": {
       "title": "Highlights",
       "items": [
-        "Historical Architecture: An iconic stone bridge over the Neckar River with a rich history and exquisite sculptures.",
-        "Perfect Vantage Point: Offers a perfect panoramic view of Heidelberg Castle and the old town.",
-        "Central Location: Adjacent to Heidelberg's old town, within walking distance to multiple surrounding attractions."
+        "Iconic silhouette: the Hochwacht watchtower, the Seilergang and the mighty Dicker Turm shape Esslingen's skyline",
+        "Best viewpoint: from the castle your gaze sweeps across the old town and the Neckar valley to the Swabian Jura",
+        "Medieval fortification: the castle was never a noble residence but part of the imperial city walls"
       ]
     }
   },
   "knowledge": {
-    "title": "Discover the Charm of Jardim Luís de Camões",
+    "title": "The Story of Esslinger Burg",
     "sections": [
       {
         "id": "history",
-        "title": "Memorial Significance",
-        "content": "This garden was established by the city of Leiria as an urban space to pay tribute to the Portuguese literary giant Luís de Camões, with his bronze statue acting as the centerpiece."
+        "title": "From fortification to landmark",
+        "content": "Esslinger Burg was never used as a noble residence. It was built as part of the medieval fortifications of the free imperial city of Esslingen and was first mentioned in documents in 1314. Between 1519 and 1531 the complex was extended into a mighty bastion."
       },
       {
         "id": "architecture",
-        "title": "Landscaping",
-        "content": "The garden features a delicate design with neatly trimmed greenery, a classical-style fountain, and relaxing benches that blend harmoniously with the surrounding urban architecture."
+        "title": "Dicker Turm, Hochwacht & Seilergang",
+        "content": "The site is defined by the Dicker Turm, erected in 1527 with walls more than five metres thick, the Hochwacht watchtower from the early 14th century, and the Seilergang, a covered rampart walk connecting the two towers. The roofed Burgstaffel staircase takes you up from the valley with 332 steps."
       },
       {
         "id": "experience",
-        "title": "Relaxing Experience",
-        "content": "It is the perfect place to unwind after visiting the majestic Leiria Castle. You can sit on a bench, listen to the fountain, and experience the slow-paced lifestyle of Leiria."
+        "title": "Burgplatz & panorama",
+        "content": "The Inner and Outer Burgplatz, with their flower beds and the large playground, invite you to linger. From here you enjoy a unique view over the rooftops of the old town, the vineyards of the Schönenberg, the Neckar valley and – on clear days – all the way to the Swabian Jura."
       }
     ]
   },
@@ -75,138 +77,171 @@ export default {
     "phone": "Phone",
     "phoneValue": "+4971141111700",
     "plusCode": "Plus Code",
-    "plusCodeValue": "P8V5+XP Esslingen am Neckar Germany"
+    "plusCodeValue": "P8W5+5X Esslingen am Neckar Germany"
   },
   "hours": {
     "title": "Opening Hours",
-    "outdoor": "Entire Garden",
-    "outdoorTime": "Free and open all day, no ticketed indoor pavilions, no seasonal restrictions",
+    "outdoor": "Castle, Burggarten & Burgplatz",
+    "outdoorTime": "Free access all year round, open around the clock – no ticket required",
     "lighthouse": "Nearby Attractions",
-    "summer": "Leiria Castle",
-    "summerTime": "Usually 09:30-17:30 (subject to official castle announcements)",
-    "winter": "Museum of Leiria",
-    "winterTime": "Usually 09:30-17:30 (Closed on Mondays)",
-    "warning": "Fountain & Statue Area",
-    "warningTime": "Open all day for viewing",
-    "tip": "Early mornings and late afternoons are the most peaceful times, perfect for walking and photography"
+    "summer": "Dicker Turm & Hochwacht",
+    "summerTime": "Visible at any time from outside; interiors only accessible during special guided tours",
+    "winter": "Seilergang & Rampart Walk",
+    "winterTime": "Accessible all year round",
+    "warning": "Burgplatz & Viewpoints",
+    "warningTime": "Open around the clock",
+    "tip": "Early morning or late afternoon are the quietest times on the castle – perfect for a stroll and photography"
   },
   "tickets": {
-    "title": "Ticket Information",
-    "outdoor": "Jardim Luís de Camões",
-    "outdoorPrice": "Free all day",
-    "lighthouse": "Nearby Paid Attractions",
-    "adults": "Leiria Castle",
-    "adultsPrice": "Requires an admission ticket",
-    "students": "Nearby Museums",
-    "studentsPrice": "Fees apply according to each venue's rules",
-    "children": "Parking Fees",
-    "childrenPrice": "Paid street parking is available around the garden, a 1-2 minute walk away",
-    "card": "Transport Tip",
-    "cardPrice": "Located in the city center, walking distance to nearby dining and shopping areas"
+    "title": "Tickets & Prices",
+    "outdoor": "Esslinger Burg & Burggarten",
+    "outdoorPrice": "Free entry – all year round",
+    "lighthouse": "Paid Options Nearby",
+    "adults": "Guided city & castle tours",
+    "adultsPrice": "Tickets required, e.g. via Esslingen Marketing",
+    "students": "Summer open-air events",
+    "studentsPrice": "Ticket prices vary by event",
+    "children": "Parking",
+    "childrenPrice": "Paid castle car park on the Schönenberg & car parks at the edge of the old town",
+    "card": "Visitor Note",
+    "cardPrice": "The castle grounds themselves are free – charges only apply to tours, events or parking"
   },
   "transport": {
-    "title": "Transportation",
+    "title": "Getting There",
     "airport": "From the Airport",
-    "airportDesc": "Nearest International Airports: Lisbon LIS Airport (approx. 140 km, 1.5 hours drive), Porto OPO Airport (approx. 200 km, 2 hours drive).",
-    "selfDrive": "Driving",
-    "selfDriveDesc": "From Lisbon, take the A8 or A1 highway north directly to Leiria. Set your GPS to Largo 5 de Outubro 48, and find paid street parking nearby.",
-    "bus": "Public Transport",
-    "busDesc": "Direct intercity buses (Rede Expressos) and trains run from both Lisbon and Porto to Leiria. From the Leiria station, the garden is easily reachable on foot.",
-    "intercity": "Short-Distance Travel",
-    "intercityDesc": "Attractions in downtown Leiria are close together; Castelo de Leiria is just a 5-minute walk from the garden.",
-    "cycling": "Cycling",
-    "cyclingDesc": "The coastal areas around Leiria (such as Nazaré and São Pedro de Moel) are great for road cycling.",
+    "airportDesc": "Nearest airport: Stuttgart (STR), about 15 km away (approx. 20 minutes by car). Frankfurt (FRA) is about 200 km away (approx. 2 hours by car or train).",
+    "selfDrive": "By Car",
+    "selfDriveDesc": "Esslingen is easily reached via the B10. Set your navigation to “Esslinger Burg” – Plus Code: P8W5+5X Esslingen. There is a paid castle car park on the Schönenberg; alternatively, use one of the car parks at the edge of the old town.",
+    "bus": "By Train & Bus",
+    "busDesc": "From Stuttgart main station, the S-Bahn line S1 takes you directly to Esslingen in about 15–20 minutes. From Esslingen station, the castle is a 15–20 minute walk through the old town and up the Burgstaffel.",
+    "intercity": "On Foot from the Old Town",
+    "intercityDesc": "From the market square, the roofed Burgstaffel staircase (332 steps) leads straight up to the castle. Alternatively, the Steige path winds through the vineyards – less steep but a little longer.",
+    "cycling": "By Bike",
+    "cyclingDesc": "Cycle comfortably to Esslingen along the Neckar. If you like, combine your visit with a loop through the vineyards or into the Schurwald.",
     "tips": "Travel Tips",
-    "tipsDesc": "Leiria is centrally located in Portugal, close to the Atlantic coast, Óbidos Castle, and Batalha Monastery, making it an excellent hub for exploring the central region."
+    "tipsDesc": "Esslingen lies in the heart of Baden-Württemberg, just 15 train minutes from Stuttgart. It combines perfectly with the Esslinger Höhenweg trail, hikes into the Schurwald or a stop at one of the region's wineries."
   },
   "route": {
-    "title": "Visiting Route",
-    "overview": "Heidelberg Old Town Walking Route",
+    "title": "Suggested Route",
+    "overview": "Castle Walk & Old Town Tour in Esslingen",
     "steps": [
-      "Arrive at Jardim Luís de Camões to admire the Camões statue and fountain",
-      "Take a break on a garden bench and enjoy the urban greenery",
-      "Walk to Leiria's old town to explore local cafes and craft shops",
-      "Take a 5-minute walk up to the majestic Castelo de Leiria",
-      "Visit the nearby Leiria Cathedral or local museums",
-      "Taste traditional Central Portugal cuisine in the old town"
+      "Start at the market square in Esslingen's old town with its famous half-timbered houses",
+      "Climb up via the roofed Burgstaffel staircase (332 steps)",
+      "Pause on the intermediate landings and enjoy the view over the rooftops",
+      "Once at the top: explore the Dicker Turm, the Hochwacht and the Seilergang",
+      "Walk along the Seilergang rampart and look out over the Neckar valley",
+      "Head back down through the vineyards via the Steige and finish with Swabian food in the old town"
     ],
     "supplements": [
-      "The garden is an open space, no reservations needed",
-      "Pay attention to parking meters and time limits on surrounding streets",
-      "Leiria Castle is located on a hill, requiring an uphill walk"
+      "The castle grounds are free to enter – no reservation needed",
+      "The Burgstaffel is steep – sturdy shoes are strongly recommended",
+      "If you prefer not to walk, drive directly to the castle car park on the Schönenberg"
     ],
-    "supplementsTitle": "Visiting Notes"
+    "supplementsTitle": "Notes for Your Visit"
   },
   "photoSpots": {
     "title": "Photo Spots",
     "spots": [
       {
-        "name": "Old Bridge Statues",
-        "desc": "Capture the iconic bronze statues with the old town in the background"
+        "name": "Seilergang & Arrow Slits",
+        "desc": "Look through the arrow slits onto the vineyards and the old town"
       },
       {
-        "name": "Fountain and Greenery",
-        "desc": "Use the water features and manicured shrubs as foregrounds for fresh garden shots"
+        "name": "Dicker Turm",
+        "desc": "Frame the mighty round tower with its distinctive dome"
       },
       {
-        "name": "Relaxation Benches",
-        "desc": "Capture the laid-back daily life of the locals"
+        "name": "Roofed Burgstaffel",
+        "desc": "Capture the stone staircase with its wooden roof structure"
       },
       {
-        "name": "Distant View of Heidelberg Castle",
-        "desc": "Look up at the majestic Heidelberg Castle from the bridge"
+        "name": "Viewpoint above the Old Town",
+        "desc": "Photograph the half-timbered houses and red rooftops from above"
       }
     ],
     "tips": "Photography Tips",
-    "tipsContent": "Morning sunlight filtering through the leaves onto the statue creates the best lighting for photography."
+    "tipsContent": "Late afternoon light falls beautifully on the red rooftops of the old town – the best time for panoramic shots."
   },
   "hotels": {
-    "title": "Accommodation Suggestions",
+    "title": "Where to Stay",
     "hotels": [
       {
-        "name": "Downtown Boutique Hotels",
-        "desc": "Just steps away from the garden and castle, extremely convenient",
-        "price": "Ideal for those who love a city vibe"
+        "name": "Historic Hotels in Esslingen's Old Town",
+        "desc": "Right in the half-timbered ensemble, minutes from the market square and Burgstaffel",
+        "price": "Great for lovers of historic atmosphere"
       },
       {
-        "name": "Old Town Cozy Apartments",
-        "desc": "Equipped with kitchens, surrounded by restaurants and supermarkets",
-        "price": "Great for families or extended stays"
+        "name": "Modern Apartments by the Neckar",
+        "desc": "Well equipped, well connected and close to the station",
+        "price": "Perfect for families and longer stays"
       },
       {
-        "name": "Coastal Resorts (e.g., near Nazaré)",
-        "desc": "About a 30-minute drive from Leiria, offering Atlantic ocean views",
-        "price": "Perfect for drivers seeking a beach holiday experience"
+        "name": "Winery & Country Hotels on the Outskirts",
+        "desc": "A little further out, surrounded by vineyards and quiet nature",
+        "price": "For self-drivers looking for peace and relaxation"
       }
     ],
-    "supplements": "Accommodation Notes",
-    "supplementsContent": "There are numerous highly-rated local restaurants around Heidelberg where you can taste traditional German cuisine.",
+    "supplements": "Accommodation Note",
+    "supplementsContent": "Esslingen and the surrounding area boast many highly rated restaurants. Be sure to try Swabian classics such as Maultaschen or Zwiebelrostbraten.",
     "supplementsTitle": "Local Cuisine"
   },
+  "localTips": {
+    "eyebrow": "Esslingen & Esslinger Burg",
+    "title": "Things to Do Around Esslingen am Neckar",
+    "description": "Esslinger Burg is the finest viewing platform above the old town – and the perfect starting point for a family day out, a walk through the vineyards or a hike towards the Schurwald.",
+    "kids": {
+      "title": "Esslinger Burg with Kids",
+      "text": "The large playground on the Outer Burgplatz and the wide lawns make the castle a paradise for families. Thick walls, towers, rampart walks and the mysterious Seilergang invite little explorers on a real knight's adventure – free and open all year round.",
+      "bullets": [
+        "Large children's playground right on the Burgplatz",
+        "Walls, towers & rampart walks to discover",
+        "Free and open all year – perfect for a spontaneous outing"
+      ]
+    },
+    "region": {
+      "title": "Day Trips & the Schurwald",
+      "text": "Combine your castle visit with a walk through Esslingen's old town: the market square, the Stadtkirche St. Dionys church and the famous half-timbered houses lie directly at the foot of the castle. Hikers can follow the Steige up into the vineyards or set off towards the Schurwald – the forested ridge east of Esslingen with wonderful views over the Neckar valley.",
+      "bullets": [
+        "Old town walk: market square, half-timbered houses & Stadtkirche",
+        "Hike through the vineyards or up into the Schurwald",
+        "Nearby: Esslinger Höhenweg trail & Weinerlebnispfad wine trail"
+      ]
+    },
+    "practical": {
+      "title": "Practical Info",
+      "bullets": [
+        "Free entry: castle grounds, Burggarten & Burgplatz open at no cost",
+        "Open all year – no opening hours, no reservation needed",
+        "Getting there: S-Bahn S1 to Esslingen, then a 15–20 minute walk",
+        "Parking: castle car park on the Schönenberg or old-town car parks",
+        "Navigation: Plus Code P8W5+5X Esslingen"
+      ]
+    }
+  },
   "gallery": {
-    "title": "Stunning Photos",
-    "subtitle": "Charming Scenery of Old Bridge Heidelberg",
+    "title": "Gallery",
+    "subtitle": "Esslinger Burg in Pictures",
     "captions": [
-      "Camões Statue",
-      "Garden Fountain",
-      "Manicured Shrubs",
-      "Leiria Castle View",
-      "Shaded Walking Path",
-      "Urban Oasis",
-      "Leiria Old Town Streets",
-      "Local Cafe",
-      "Sunlit Bench",
-      "Garden Flowers",
-      "City Square",
-      "Portuguese Cobblestones",
-      "Garden at Dusk",
-      "Leiria Cathedral",
-      "Monument Details",
-      "Quiet Afternoon",
-      "Cityscape",
-      "Historical Architecture",
-      "Water Feature",
-      "Locals Relaxing"
+      "View of the Dicker Turm",
+      "Castle rampart walk",
+      "Vineyards around the castle",
+      "Panorama of Esslingen's old town",
+      "Medieval fortification",
+      "Roofed Burgstaffel staircase",
+      "Streets of Esslingen's old town",
+      "Cafés in the old town",
+      "Burgstaffel with wooden roof",
+      "Vineyards on the Schönenberg",
+      "Esslingen market square",
+      "Historic cobblestones",
+      "Castle in the evening",
+      "Half-timbered houses",
+      "Historic masonry",
+      "Quiet afternoon at the castle",
+      "View over the rooftops",
+      "Stone walls",
+      "Neckar valley",
+      "Relaxation with a view"
     ],
     "viewAll": "View more photos on Google Maps",
     "showAllPhotos": "Show All Photos"
@@ -217,66 +252,49 @@ export default {
     "moreReviews": "View More Reviews on Google Maps",
     "items": [
       {
-        "name": "João Silva",
+        "name": "Laura",
         "date": "2 months ago",
         "rating": 5,
-        "text": "A wonderful, well-preserved urban garden! The cobblestone paths and statues are full of history. Walking here is very relaxing. Highly recommend coming at sunset."
+        "text": "The climb up the many steps is hard work – but the view over the old town and the Neckar valley makes up for everything! Do stop for a moment and take it all in."
       },
       {
-        "name": "Maria Costa",
+        "name": "Thomas",
         "date": "1 month ago",
         "rating": 5,
-        "text": "One of the most beautiful leisure spots in Leiria! The tranquility here is so relaxing, and the surrounding greenery is gorgeous. Be careful in summer as it can get hot, bring water and sunscreen."
+        "text": "An impressive fortification! The covered Seilergang walkway really took me back to the Middle Ages. The Dicker Turm is an absolute must on every visit to Esslingen."
       },
       {
-        "name": "Carlos Rodrigues",
+        "name": "Sarah",
         "date": "3 months ago",
         "rating": 4,
-        "text": "An amazing place. The garden isn't huge, but the location is perfect. Had a great traditional Portuguese meal at a nearby restaurant. The only issue is finding parking during peak season."
+        "text": "Wonderful views over the vineyards and the half-timbered houses. Bring sturdy shoes – the paths are steep. There is a car park at the top, which is very handy with kids."
       },
       {
-        "name": "Ana Martins",
-        "date": "Over 6 months ago",
+        "name": "Daniel",
+        "date": "6 months ago",
         "rating": 5,
-        "text": "A very romantic and charming place. We walked around here and the night view is absolutely stunning. Completely fell in love with it!"
-      },
-      {
-        "name": "Pedro Santos",
-        "date": "1 year ago",
-        "rating": 5,
-        "text": "The scenery here really lifts your mood. You can see the exquisite statue blending with the wide square. The garden itself is charming with many cafes around."
-      },
-      {
-        "name": "Teresa Ferreira",
-        "date": "Over 6 months ago",
-        "rating": 4,
-        "text": "Well worth a visit! It's very easy to walk here from Leiria Castle. Recommend wearing flat shoes due to the cobblestone paths. Locals are friendly, great spots for photos."
-      },
-      {
-        "name": "Rui Almeida",
-        "date": "3 months ago",
-        "rating": 5,
-        "text": "Feels like stepping back in time! Every path and fountain has its story. Resting on a bench makes you feel like time has stopped. A must-visit in Leiria."
-      },
-      {
-        "name": "Catarina Gomes",
-        "date": "2 months ago",
-        "rating": 5,
-        "text": "Beautiful beyond words. Whether it's the Camões statue or the green vegetation, you won't want to leave. Highly recommend sitting by the fountain, it feels amazing."
+        "text": "A very impressive site, free and accessible around the clock. Most beautiful at sunset, when the red rooftops of the old town glow in the evening light."
       }
     ]
   },
   "mapSection": {
-    "title": "Transportation Guide",
+    "title": "Getting There & Map",
     "subtitle": "Esslinger Burg, 73728 Esslingen am Neckar, Germany",
     "openMaps": "View on Google Maps"
   },
   "footer": {
-    "rights": "© 2026 Esslingen Castle. All rights reserved.",
+    "rights": "© 2026 Esslinger Burg. All rights reserved.",
+    "imageRights": "All images displayed on this website remain the property and copyright of their respective photographers.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookie Settings",
-    "officialResourcesTitle": "Related Resources & Information",
+    "exploreTitle": "Popular Topics",
+    "exploreLinks": [
+      { "label": "Esslinger Burg attractions", "id": "gallery" },
+      { "label": "Visit Esslinger Burg", "id": "reviews" },
+      { "label": "Day trip to Esslinger Burg", "id": "map" }
+    ],
+    "officialResourcesTitle": "Official Resources & Information",
     "officialLinks": {
       "germany_travel": {
         "name": "German National Tourist Board",
@@ -298,7 +316,7 @@ export default {
         "name": "State Office for Monument Preservation BW",
         "url": "https://www.denkmalpflege-bw.de/"
       },
-      "heidelberg_denkmal": {
+      "city_esslingen": {
         "name": "Esslingen City Council",
         "url": "https://www.esslingen.de/start"
       },
@@ -327,7 +345,7 @@ export default {
       },
       {
         "heading": "3. Third-Party Services",
-        "content": "Our website may use third-party services such as Google Maps (for embedded maps and location data), Google Analytics (for traffic analysis), and Unsplash (for images). These services have their own privacy policies."
+        "content": "Our website may use third-party services such as Google Maps (for embedded maps and location data) and Google Analytics (for traffic analysis, activated only with your consent). All photos and media on this site are self-hosted. These services have their own privacy policies."
       },
       {
         "heading": "4. Your Rights",
@@ -353,7 +371,7 @@ export default {
       },
       {
         "heading": "4. Intellectual Property",
-        "content": "The design and original content of this website are protected by copyright. Images are sourced from Unsplash and used under license. The use of Google Maps data complies with Google's terms of service."
+        "content": "The design and original content of this website are protected by copyright. All photographs displayed on this website belong to their respective creators and are shown with permission (see the image rights note in the site footer). The use of Google Maps data complies with Google's terms of service."
       },
       {
         "heading": "5. Limitation of Liability",
@@ -407,8 +425,99 @@ export default {
     "consentManagement": "Consent Management: You can change your cookie settings at any time. Please note that disabling certain cookies may affect the website's functionality.",
     "rejectAll": "Reject All"
   },
+  "facilities": {
+    "eyebrow": "Plan your visit",
+    "title": "Practical information at a glance",
+    "description": "Neutral notes on toilets, parking, food, accommodation, shopping and refuelling or EV charging – no advertising for individual businesses.",
+    "wc": {
+      "title": "Public toilets",
+      "text": "In the old town you will find public toilets mainly in the multi-storey car parks and near the station. There are no public toilets on the castle grounds itself – use the facilities down in the old town before you climb the 332 steps."
+    },
+    "parking": {
+      "title": "Parking",
+      "text": "Up on the Schönenberg there is a paid castle car park with a limited number of spaces. Good alternatives are the multi-storey car parks on the edge of the old town, for example near the station. From there it takes about 15–20 minutes on foot to the castle."
+    },
+    "dining": {
+      "title": "Food & drink",
+      "text": "The historic Burgschänke building on the castle square is currently not operating as a restaurant. Instead, Esslingen's old town offers cafés, bakeries and restaurants serving Swabian cuisine – from a quick lunch to a cosy inn."
+    },
+    "stay": {
+      "title": "Where to stay",
+      "text": "From hotels and guesthouses to holiday apartments, Esslingen offers places to stay in the old town, among the vineyards and along the Neckar. Staying nearby lets you enjoy the illuminated castle in the evening."
+    },
+    "shopping": {
+      "title": "Shopping & groceries",
+      "text": "Supermarkets and shops for everyday needs are located around the station and on the edges of the pedestrian zone. The weekly market on the market square offers regional produce – handy for a picnic in the castle gardens."
+    },
+    "fuel": {
+      "title": "Petrol & EV charging",
+      "text": "Petrol stations are located on the main roads around the city. Electric car charging points can be found in the public multi-storey car parks of the old town, among other places. Check availability shortly before you set off."
+    }
+  },
+  "story": {
+    "eyebrow": "History & background",
+    "title": "Esslinger Burg through the centuries",
+    "intro": "Esslinger Burg is not a prince's palace but the preserved heart of the medieval fortifications of the free imperial city of Esslingen. For centuries the complex protected the town on the Neckar – today it is its finest viewpoint and a freely accessible park.",
+    "timelineTitle": "Key milestones",
+    "timeline": [
+      { "year": "777", "title": "Esslingen enters the historical record", "text": "Fulrad, abbot of Saint-Denis, bequeaths his estates in Esslingen to the monastery – the oldest written mention of the future town." },
+      { "year": "13th c.", "title": "Town walls and castle grow together", "text": "After receiving town rights, Esslingen grows into an imperial city. Around 1286/87, the so-called Schenkelmauern link the hill above the town with the city fortifications." },
+      { "year": "1314", "title": "First written mention of the castle", "text": "For the first time, the fortification on the castle hill is explicitly mentioned as a castle – the northernmost bastion of the medieval city walls." },
+      { "year": "1519–1531", "title": "Expansion into a modern bastion", "text": "The complex is massively extended and reinforced with artillery positions. In 1519 the citizens of Esslingen successfully repel an attack by Duke Ulrich of Württemberg." },
+      { "year": "1688", "title": "Destruction by French troops", "text": "During the Nine Years' War, troops under General Ezéchiel de Mélac occupy and devastate large parts of Esslingen. The preserved Mélac-Häuschen on the castle hill still recalls those times." },
+      { "year": "20th c.", "title": "From fortress to public park", "text": "The fortification loses its military role and becomes a public green space with a playground. Today the grounds are free to enter and open around the clock." }
+    ],
+    "legendTitle": "Tales, anecdotes & surprises",
+    "legendNote": "Legends are stories passed down by word of mouth – they belong to local culture, but are not documented history.",
+    "legends": [
+      { "title": "The woman at Mélac-Häuschen", "text": "According to tradition, in 1688 a young woman from Esslingen is said to have offered herself to the French general Mélac to save her town from destruction. It did not help: Esslingen was badly devastated. The story shows how desperate the situation must have been after the invasion." },
+      { "title": "A water reservoir beneath the playground", "text": "Beneath the large lawn with its children's playground lies an underground drinking-water tank. The castle site is thus still a quiet part of the city's infrastructure today – not everything up here is medieval." }
+    ],
+    "closing": "When you look across the castle square today, you see the same silhouette of Hochwacht, Dicker Turm and Seilergang that has watched over Esslingen for centuries – town history you can feel at every step."
+  },
+  "weather": {
+    "title": "Weather in Esslingen am Neckar",
+    "subtitle": "Up on the castle hill it often feels noticeably fresher than down in the old town. A quick weather check before the climb tells you whether to pack an umbrella or a sun hat.",
+    "now": "Now",
+    "feelsLike": "Feels like",
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "rainChance": "Chance of rain",
+    "today": "Today",
+    "fallback": "Weather data is currently unavailable. Please check again shortly before your visit.",
+    "codes": {
+      "0": "Clear sky",
+      "1": "Mainly clear",
+      "2": "Partly cloudy",
+      "3": "Overcast",
+      "45": "Fog",
+      "48": "Rime fog",
+      "51": "Light drizzle",
+      "53": "Drizzle",
+      "55": "Dense drizzle",
+      "56": "Light freezing drizzle",
+      "57": "Dense freezing drizzle",
+      "61": "Light rain",
+      "63": "Rain",
+      "65": "Heavy rain",
+      "66": "Light freezing rain",
+      "67": "Freezing rain",
+      "71": "Light snow",
+      "73": "Snow",
+      "75": "Heavy snow",
+      "77": "Snow grains",
+      "80": "Light rain showers",
+      "81": "Rain showers",
+      "82": "Violent rain showers",
+      "85": "Light snow showers",
+      "86": "Snow showers",
+      "95": "Thunderstorm",
+      "96": "Thunderstorm with light hail",
+      "99": "Thunderstorm with heavy hail"
+    }
+  },
   "officialManagement": {
-    "title": "About Jardim Luís de Camões",
-    "text": "Jardim Luís de Camões is an important memorial garden in the center of Leiria, managed and maintained by the Leiria City Council (Câmara Municipal de Leiria)."
+    "title": "About Esslinger Burg",
+    "text": "Esslinger Burg is an important historic structure in the city of Esslingen am Neckar and part of the medieval city fortifications. The freely accessible outdoor grounds are maintained and cared for by the city of Esslingen and the monument preservation authorities."
   }
 };

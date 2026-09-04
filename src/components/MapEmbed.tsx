@@ -1,7 +1,17 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
+import {
+  siteFacts,
+  mapCopy,
+  officialLinks,
+  type Locale,
+} from '@/content/esslinger-burg';
 
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
+  const locale = useLocale();
+  const lang = (locale === 'de' || locale === 'en' || locale === 'zh' ? locale : 'de') as Locale;
+  const copy = mapCopy[lang];
+  const official = officialLinks[lang].slice(0, 3);
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -12,7 +22,9 @@ export default function MapEmbed() {
         >
           {t('title')}
         </h2>
-        <p className="mb-8 text-sm" style={{ color: 'var(--text-muted)' }}>{t('subtitle')}</p>
+        <p className="mb-8 text-base sm:text-lg leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+          {copy.lead}
+        </p>
         <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
 
         {/* Map */}
@@ -20,27 +32,66 @@ export default function MapEmbed() {
           className="map-container relative rounded-xl overflow-hidden"
           style={{ border: '1px solid var(--map-border)' }}
         >
-          {/* 
-            NOTE: Google Maps attribution is hidden via CSS (.gm-style-cc, .gmnoprint).
-            This is for visual cleanliness only. Google's Terms of Service apply.
-          */}
           <iframe
-            src="https://maps.google.com/maps?q=Esslinger+Burg,+Esslingen+am+Neckar&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            src={siteFacts.mapsEmbedSrc}
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - Esslinger Burg"
+            referrerPolicy="strict-origin-when-cross-origin"
+            title={`Google Maps – ${siteFacts.officialName}, ${siteFacts.city}`}
           />
         </div>
 
+        {/* Nearby landmark cluster */}
+        <p className="mt-6 flex items-start gap-3 text-base leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+          <span className="mt-1 flex-shrink-0" style={{ color: 'var(--accent)' }}>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
+          </span>
+          <span>{copy.landmarks}</span>
+        </p>
+
+        {/* Official / authority links */}
+        <div className="mt-10">
+          <h3 className="font-display text-lg font-semibold mb-1" style={{ color: 'var(--text-primary)' }}>
+            {copy.officialTitle}
+          </h3>
+          <p className="text-sm mb-4" style={{ color: 'var(--text-muted)' }}>
+            {copy.officialSubtitle}
+          </p>
+          <div className="flex flex-wrap gap-3">
+            {official.map((link, i) => (
+              <a
+                key={i}
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-colors hover:opacity-80"
+                style={{
+                  background: 'var(--tag-bg)',
+                  color: 'var(--tag-text)',
+                }}
+              >
+                {link.name}
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </a>
+            ))}
+          </div>
+        </div>
+
         {/* Open in Google Maps */}
-        <div className="mt-6 flex justify-center">
+        <div className="mt-8 flex justify-center">
           <a
-              href="https://maps.app.goo.gl/khRRKyGF1aMdSVT69"
-              target="_blank"
+            href={siteFacts.mapsShareUrl}
+            target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium text-white transition-colors"
             style={{ background: 'var(--accent)' }}

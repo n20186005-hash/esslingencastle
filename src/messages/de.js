@@ -1,61 +1,63 @@
 export default {
   "meta": {
-    "title": "Esslinger Burg | Reiseführer",
-    "description": "Entdecken Sie die Esslinger Burg in Baden-Württemberg, Deutschland."
+    "title": "Esslinger Burg – Die #1 Sehenswürdigkeit in Esslingen am Neckar",
+    "description": "Besuchen Sie die historische Esslinger Burg! Genießen Sie den besten Panoramablick über die Altstadt, den Burggarten & Wehranlagen. Eintritt frei & ideal für Ausflüge. Jetzt informieren!"
   },
   "header": {
     "home": "Startseite",
     "gallery": "Galerie",
     "reviews": "Bewertungen",
     "map": "Karte",
-    "backToHome": "Zurück zur Startseite"
+    "backToHome": "Zurück zur Startseite",
+    "homeKeyword": "Esslinger Burg Sehenswürdigkeiten"
   },
   "hero": {
     "title": "Esslinger Burg",
     "subtitle": "Esslingen am Neckar · Deutschland",
     "rating": "4.7",
-    "reviewCount": "5,712",
-    "hours": "24 Stunden geöffnet",
+    "reviewCount": "5,857",
+    "hours": "Kostenlos & immer geöffnet",
     "openMaps": "Standort ansehen"
   },
   "intro": {
     "title": "Entdecken Sie die Esslinger Burg",
-    "description": "Die Esslinger Burg ist ein historisches Wahrzeichen in Esslingen am Neckar, Baden-Württemberg, Deutschland. Als eines der wichtigsten Symbole der Stadt bietet sie nicht nur einen großen historischen Wert, sondern auch den perfekten Aussichtspunkt, um das Stadtbild zu bewundern.",
+    "description": "Die Esslinger Burg ist kein klassisches Schloss, sondern ein bedeutendes Wahrzeichen oberhalb der Altstadt von Esslingen am Neckar in Baden-Württemberg. Als nördlichste Bastion der mittelalterlichen Stadtbefestigung bietet sie den wohl besten Panoramablick über die Fachwerkhäuser, das Neckartal und die Weinberge – und ist ganzjährig kostenlos zugänglich.",
+    "semantic": "Die Esslinger Burg – international auch als Esslingen Castle bekannt – ist die offizielle Bezeichnung der mittelalterlichen Stadtbefestigung oberhalb von Esslingen am Neckar in Baden-Württemberg, Deutschland. Geografische Einordnung: Esslinger Burg → Esslingen am Neckar → Baden-Württemberg → Deutschland. Vom Burgplatz aus erreichen Sie die wichtigsten Sehenswürdigkeiten der Altstadt bequem zu Fuß, etwa den Marktplatz mit dem Historischen Rathaus und die gotische Stadtkirche St. Dionys.",
     "visitGuide": {
-      "title": "Visiting Tips",
+      "title": "Tipps für Ihren Besuch",
       "items": [
-        "Rund um die Uhr kostenlos zugänglich, jederzeit für einen Spaziergang oder Fotos geöffnet",
-        "Frühmorgens oder am späten Nachmittag für das beste Licht empfohlen",
-        "Ziehen Sie sich warm an, da es auf der Brücke windig sein kann",
-        "Viele Cafés und traditionelle deutsche Restaurants in der Nähe"
+        "Burganlage, Burggarten und Burgplatz sind kostenlos und rund um die Uhr zugänglich",
+        "Der Aufstieg über die überdachte Burgstaffel (332 Stufen) lohnt sich – bequemer geht es über die Steige durch die Weinberge",
+        "Festes Schuhwerk empfohlen: Die Wege und Stufen sind steil, der Ausblick entschädigt aber für jede Anstrengung",
+        "In der Esslinger Altstadt warten zahlreiche Cafés und schwäbische Restaurants auf Sie"
       ]
     },
     "alsoKnownAs": {
       "title": "Highlights",
       "items": [
-        "Historische Architektur: Eine ikonische Steinbrücke über den Neckar mit einer reichen Geschichte und exquisiten Skulpturen.",
-        "Perfekter Aussichtspunkt: Bietet einen perfekten Panoramablick auf das Heidelberger Schloss und die Altstadt.",
-        "Zentrale Lage: Direkt an der Heidelberger Altstadt, viele Sehenswürdigkeiten sind zu Fuß erreichbar."
+        "Markante Silhouette: Hochwacht, Seilergang und der mächtige Dicke Turm prägen das Stadtbild von Esslingen",
+        "Bester Panoramablick: Von der Burg reicht der Blick über die Altstadt und das Neckartal bis zur Schwäbischen Alb",
+        "Historische Stadtbefestigung: Die Burg war nie ein Adelssitz, sondern Teil der mittelalterlichen Reichsstadtmauer"
       ]
     }
   },
   "knowledge": {
-    "title": "Discover the Charm of Jardim Luís de Camões",
+    "title": "Geschichte der Esslinger Burg",
     "sections": [
       {
         "id": "history",
-        "title": "Memorial Significance",
-        "content": "This garden was established by the city of Leiria as an urban space to pay tribute to the Portuguese literary giant Luís de Camões, with his bronze statue acting as the centerpiece."
+        "title": "Vom Wehrturm zur Burg",
+        "content": "Die Esslinger Burg wurde nie als Adelsresidenz genutzt. Sie entstand als Teil der mittelalterlichen Stadtbefestigung der freien Reichsstadt Esslingen und wurde erstmals 1314 urkundlich erwähnt. Zwischen 1519 und 1531 erweiterte man die Anlage zu einer mächtigen Bastion."
       },
       {
         "id": "architecture",
-        "title": "Landscaping",
-        "content": "The garden features a delicate design with neatly trimmed greenery, a classical-style fountain, and relaxing benches that blend harmoniously with the surrounding urban architecture."
+        "title": "Bauwerke: Dicker Turm, Hochwacht & Seilergang",
+        "content": "Prägend sind der 1527 errichtete Dicke Turm mit seinen über fünf Meter dicken Mauern, die Hochwacht aus dem frühen 14. Jahrhundert sowie der Seilergang, ein überdachter Wehrgang, der beide Türme verbindet. Über die überdachte Burgstaffel gelangen Sie mit 332 Stufen vom Tal hinauf zur Burg."
       },
       {
         "id": "experience",
-        "title": "Relaxing Experience",
-        "content": "It is the perfect place to unwind after visiting the majestic Leiria Castle. You can sit on a bench, listen to the fountain, and experience the slow-paced lifestyle of Leiria."
+        "title": "Burgplatz & Panorama",
+        "content": "Auf dem Inneren und Äußeren Burgplatz mit seinen Beeten und dem großen Spielplatz lässt es sich herrlich verweilen. Von hier genießen Sie einen einzigartigen Blick über die Dächer der Altstadt, die Weinberge des Schönenbergs, das Neckartal und bei klarer Sicht bis zur Schwäbischen Alb."
       }
     ]
   },
@@ -69,214 +71,230 @@ export default {
     "countryValue": "Deutschland",
     "city": "Stadt",
     "cityValue": "Esslingen am Neckar",
-    "googleRating": "Google Rating",
+    "googleRating": "Google-Bewertung",
     "address": "Adresse",
     "addressValue": "Esslinger Burg, 73728 Esslingen am Neckar, Deutschland",
     "phone": "Telefon",
     "phoneValue": "+4971141111700",
     "plusCode": "Plus Code",
-    "plusCodeValue": "P8V5+XP Esslingen am Neckar Deutschland"
+    "plusCodeValue": "P8W5+5X Esslingen am Neckar Deutschland"
   },
   "hours": {
-    "title": "Opening Hours",
-    "outdoor": "Entire Garden",
-    "outdoorTime": "Free and open all day, no ticketed indoor pavilions, no seasonal restrictions",
-    "lighthouse": "Nearby Attractions",
-    "summer": "Leiria Castle",
-    "summerTime": "Usually 09:30-17:30 (subject to official castle announcements)",
-    "winter": "Museum of Leiria",
-    "winterTime": "Usually 09:30-17:30 (Closed on Mondays)",
-    "warning": "Fountain & Statue Area",
-    "warningTime": "Open all day for viewing",
-    "tip": "Early mornings and late afternoons are the most peaceful times, perfect for walking and photography"
+    "title": "Öffnungszeiten",
+    "outdoor": "Burganlage, Burggarten & Burgplatz",
+    "outdoorTime": "Ganzjährig frei zugänglich, rund um die Uhr geöffnet – keine Eintrittskarte nötig",
+    "lighthouse": "Sehenswertes in der Umgebung",
+    "summer": "Dicker Turm & Hochwacht",
+    "summerTime": "Äußerlich jederzeit zu besichtigen; Innenräume nur bei besonderen Führungen zugänglich",
+    "winter": "Seilergang & Wehrgang",
+    "winterTime": "Ganzjährig begehbar",
+    "warning": "Burgplatz & Aussichtspunkte",
+    "warningTime": "Rund um die Uhr zugänglich",
+    "tip": "Am frühen Morgen oder am späten Nachmittag ist es auf der Burg am ruhigsten – ideal für Spaziergänge und Fotografie"
   },
   "tickets": {
-    "title": "Ticket Information",
-    "outdoor": "Jardim Luís de Camões",
-    "outdoorPrice": "Free all day",
-    "lighthouse": "Nearby Paid Attractions",
-    "adults": "Leiria Castle",
-    "adultsPrice": "Requires an admission ticket",
-    "students": "Nearby Museums",
-    "studentsPrice": "Fees apply according to each venue's rules",
-    "children": "Parking Fees",
-    "childrenPrice": "Paid street parking is available around the garden, a 1-2 minute walk away",
-    "card": "Transport Tip",
-    "cardPrice": "Located in the city center, walking distance to nearby dining and shopping areas"
+    "title": "Eintritt & Preise",
+    "outdoor": "Esslinger Burg & Burggarten",
+    "outdoorPrice": "Eintritt frei – ganzjährig",
+    "lighthouse": "Kostenpflichtige Angebote in der Nähe",
+    "adults": "Geführte Stadt- & Burgführungen",
+    "adultsPrice": "Gegen Gebühr, z. B. über Esslingen Marketing",
+    "students": "Open-Air-Veranstaltungen im Sommer",
+    "studentsPrice": "Ticketpreise je nach Veranstaltung",
+    "children": "Parken",
+    "childrenPrice": "Gebührenpflichtiger Burgparkplatz auf dem Schönenberg & Parkhäuser am Altstadtrand",
+    "card": "Besucherhinweis",
+    "cardPrice": "Die Burganlage selbst ist kostenlos – Kosten entstehen nur für Führungen, Veranstaltungen oder das Parken"
   },
   "transport": {
-    "title": "Transportation",
-    "airport": "From the Airport",
-    "airportDesc": "Nearest International Airports: Lisbon LIS Airport (approx. 140 km, 1.5 hours drive), Porto OPO Airport (approx. 200 km, 2 hours drive).",
-    "selfDrive": "Driving",
-    "selfDriveDesc": "From Lisbon, take the A8 or A1 highway north directly to Leiria. Set your GPS to Largo 5 de Outubro 48, and find paid street parking nearby.",
-    "bus": "Public Transport",
-    "busDesc": "Direct intercity buses (Rede Expressos) and trains run from both Lisbon and Porto to Leiria. From the Leiria station, the garden is easily reachable on foot.",
-    "intercity": "Short-Distance Travel",
-    "intercityDesc": "Attractions in downtown Leiria are close together; Castelo de Leiria is just a 5-minute walk from the garden.",
-    "cycling": "Cycling",
-    "cyclingDesc": "The coastal areas around Leiria (such as Nazaré and São Pedro de Moel) are great for road cycling.",
-    "tips": "Travel Tips",
-    "tipsDesc": "Leiria is centrally located in Portugal, close to the Atlantic coast, Óbidos Castle, and Batalha Monastery, making it an excellent hub for exploring the central region."
+    "title": "Anreise",
+    "airport": "Vom Flughafen",
+    "airportDesc": "Nächstgelegener Flughafen: Stuttgart (STR), ca. 15 km entfernt (ca. 20 Autominuten). Frankfurt (FRA) liegt ca. 200 km entfernt (ca. 2 Stunden mit Auto oder Bahn).",
+    "selfDrive": "Mit dem Auto",
+    "selfDriveDesc": "Über die B10 erreichen Sie Esslingen bequem. Navigieren Sie am besten direkt zur „Esslinger Burg“ – Plus Code: P8W5+5X Esslingen. Oben auf dem Schönenberg gibt es einen gebührenpflichtigen Burgparkplatz; alternativ parken Sie in einem der Parkhäuser am Rand der Altstadt.",
+    "bus": "Mit Bus & Bahn",
+    "busDesc": "Vom Stuttgarter Hauptbahnhof fährt die S-Bahn-Linie S1 in ca. 15–20 Minuten direkt nach Esslingen. Vom Bahnhof Esslingen erreichen Sie die Burg zu Fuß in ca. 15–20 Minuten durch die Altstadt und über die Burgstaffel.",
+    "intercity": "Zu Fuß aus der Altstadt",
+    "intercityDesc": "Vom Marktplatz führt die überdachte Burgstaffel (332 Stufen) direkt hinauf zur Burg. Alternativ windet sich die Steige durch die Weinberge – weniger steil, dafür etwas länger.",
+    "cycling": "Mit dem Rad",
+    "cyclingDesc": "Entlang des Neckars radeln Sie bequem nach Esslingen. Wer mag, kombiniert den Besuch mit einer Runde durch die Weinberge oder in den Schurwald.",
+    "tips": "Reisetipps",
+    "tipsDesc": "Esslingen liegt im Herzen Baden-Württembergs, nur 15 Bahnminuten von Stuttgart entfernt. Ideal kombinierbar mit dem Esslinger Höhenweg, Wanderungen auf den Schurwald oder einem Abstecher zu den Weingütern der Region."
   },
   "route": {
-    "title": "Visiting Route",
-    "overview": "Heidelberger Altstadt Spaziergang",
+    "title": "Besichtigungsroute",
+    "overview": "Burgrunde & Altstadtspaziergang in Esslingen",
     "steps": [
-      "Arrive at Jardim Luís de Camões to admire the Camões statue and fountain",
-      "Take a break on a garden bench and enjoy the urban greenery",
-      "Walk to Leiria's old town to explore local cafes and craft shops",
-      "Take a 5-minute walk up to the majestic Castelo de Leiria",
-      "Visit the nearby Leiria Cathedral or local museums",
-      "Taste traditional Central Portugal cuisine in the old town"
+      "Start am Marktplatz der Esslinger Altstadt mit ihren berühmten Fachwerkhäusern",
+      "Aufstieg über die überdachte Burgstaffel (332 Stufen)",
+      "Auf den Zwischenplateaus kurz verschnaufen und den Blick über die Dächer genießen",
+      "Oben angekommen: Dicker Turm, Hochwacht und Seilergang erkunden",
+      "Entlang des Seilergangs über die Mauer gehen und das Neckartal überblicken",
+      "Über die Steige durch die Weinberge zurück in die Altstadt wandern und schwäbisch einkehren"
     ],
     "supplements": [
-      "The garden is an open space, no reservations needed",
-      "Pay attention to parking meters and time limits on surrounding streets",
-      "Leiria Castle is located on a hill, requiring an uphill walk"
+      "Die Burganlage ist frei zugänglich – keine Anmeldung erforderlich",
+      "Die Burgstaffel ist steil – festes Schuhwerk wird dringend empfohlen",
+      "Wer weniger gut zu Fuß ist, fährt direkt zum Burgparkplatz auf dem Schönenberg"
     ],
-    "supplementsTitle": "Visiting Notes"
+    "supplementsTitle": "Hinweise für Ihren Besuch"
   },
   "photoSpots": {
-    "title": "Photo Spots",
+    "title": "Fotospots",
     "spots": [
       {
-        "name": "Alte Brücke Statuen",
-        "desc": "Fotografieren Sie die ikonischen Bronzestatuen mit der Altstadt im Hintergrund"
+        "name": "Seilergang & Schießscharten",
+        "desc": "Durch die Schießscharten auf Weinberge und Altstadt blicken"
       },
       {
-        "name": "Fountain and Greenery",
-        "desc": "Use the water features and manicured shrubs as foregrounds for fresh garden shots"
+        "name": "Dicker Turm",
+        "desc": "Den mächtigen Rundturm mit seiner markanten Kuppel in Szene setzen"
       },
       {
-        "name": "Relaxation Benches",
-        "desc": "Capture the laid-back daily life of the locals"
+        "name": "Überdachte Burgstaffel",
+        "desc": "Die steinerne Stiege mit ihrem hölzernen Dachstuhl ablichten"
       },
       {
-        "name": "Blick auf das Heidelberger Schloss",
-        "desc": "Blicken Sie von der Brücke zum majestätischen Heidelberger Schloss hinauf"
+        "name": "Aussichtspunkt über der Altstadt",
+        "desc": "Von oben die Fachwerkhäuser und roten Dächer der Altstadt fotografieren"
       }
     ],
-    "tips": "Photography Tips",
-    "tipsContent": "Morning sunlight filtering through the leaves onto the statue creates the best lighting for photography."
+    "tips": "Tipps zum Fotografieren",
+    "tipsContent": "Am späten Nachmittag fällt das Licht besonders schön auf die roten Dächer der Altstadt – die beste Zeit für Panoramafotos."
   },
   "hotels": {
-    "title": "Accommodation Suggestions",
+    "title": "Übernachtungstipps",
     "hotels": [
       {
-        "name": "Downtown Boutique Hotels",
-        "desc": "Just steps away from the garden and castle, extremely convenient",
-        "price": "Ideal for those who love a city vibe"
+        "name": "Historische Hotels in der Esslinger Altstadt",
+        "desc": "Mitten im Fachwerkensemble, wenige Gehminuten von Marktplatz und Burgstaffel",
+        "price": "Ideal für alle, die das historische Flair lieben"
       },
       {
-        "name": "Old Town Cozy Apartments",
-        "desc": "Equipped with kitchens, surrounded by restaurants and supermarkets",
-        "price": "Great for families or extended stays"
+        "name": "Moderne Apartments am Neckar",
+        "desc": "Gut ausgestattet, verkehrsgünstig und nah am Bahnhof",
+        "price": "Perfekt für Familien und längere Aufenthalte"
       },
       {
-        "name": "Coastal Resorts (e.g., near Nazaré)",
-        "desc": "About a 30-minute drive from Leiria, offering Atlantic ocean views",
-        "price": "Perfect for drivers seeking a beach holiday experience"
+        "name": "Weingut- & Landhotels am Stadtrand",
+        "desc": "Etwas außerhalb mit Weinbergen und ruhiger Natur",
+        "price": "Für Selbstfahrer und Genießer, die Ruhe suchen"
       }
     ],
-    "supplements": "Accommodation Notes",
-    "supplementsContent": "Rund um Heidelberg gibt es zahlreiche hoch bewertete lokale Restaurants, in denen Sie traditionelle deutsche Küche probieren können.",
-    "supplementsTitle": "Local Cuisine"
+    "supplements": "Unterkunfts-Hinweis",
+    "supplementsContent": "In Esslingen und Umgebung gibt es viele hervorragend bewertete Lokale. Probieren Sie unbedingt schwäbische Klassiker wie Maultaschen oder Zwiebelrostbraten.",
+    "supplementsTitle": "Regionale Küche"
+  },
+  "localTips": {
+    "eyebrow": "Esslingen & die Esslinger Burg",
+    "title": "Ausflugstipps für Esslingen am Neckar",
+    "description": "Die Esslinger Burg ist die schönste Aussichtsplattform über der Altstadt – und der perfekte Ausgangspunkt für einen Familienausflug, eine Wanderung durch die Weinberge oder eine Tour in Richtung Schurwald.",
+    "kids": {
+      "title": "Esslingen mit Kindern",
+      "text": "Der große Spielplatz auf dem Äußeren Burgplatz und die weitläufigen Wiesen machen die Burg zu einem Paradies für Familien. Dicke Mauern, Türme, Wehrgänge und der geheimnisvolle Seilergang laden kleine Entdecker zu einer echten Rittertour ein – kostenlos und ganzjährig.",
+      "bullets": [
+        "Großer Kinderspielplatz direkt auf dem Burgplatz",
+        "Mauern, Türme & Wehrgänge zum Entdecken",
+        "Kostenlos und ganzjährig – ideal für einen spontanen Ausflug"
+      ]
+    },
+    "region": {
+      "title": "Ausflugsziele & Schurwald",
+      "text": "Verbinden Sie den Burgbesuch mit einem Rundgang durch die Esslinger Altstadt: Marktplatz, Stadtkirche St. Dionys und die berühmten Fachwerkhäuser liegen direkt am Fuße der Burg. Wer wandern möchte, folgt der Steige hinauf in die Weinberge oder startet zu Touren auf den Schurwald – den bewaldeten Höhenzug östlich von Esslingen mit herrlichen Ausblicken ins Neckartal.",
+      "bullets": [
+        "Altstadt-Rundgang: Marktplatz, Fachwerkhäuser & Stadtkirche",
+        "Wanderung durch die Weinberge oder hinauf in den Schurwald",
+        "In der Nähe: Esslinger Höhenweg & Weinerlebnispfad"
+      ]
+    },
+    "practical": {
+      "title": "Praktische Infos",
+      "bullets": [
+        "Eintritt frei: Burganlage, Burggarten & Burgplatz kostenlos zugänglich",
+        "Ganzjährig geöffnet – keine Öffnungszeiten, keine Reservierung nötig",
+        "Anreise: S-Bahn S1 bis Esslingen, dann ca. 15–20 Gehminuten",
+        "Parken: Burgparkplatz auf dem Schönenberg oder Parkhäuser am Altstadtrand",
+        "Navigation: Plus Code P8W5+5X Esslingen"
+      ]
+    }
   },
   "gallery": {
-    "title": "Wunderschöne Fotos",
-    "subtitle": "Bezaubernde Landschaft der Alten Brücke Heidelberg",
+    "title": "Galerie",
+    "subtitle": "Die Esslinger Burg in Bildern",
     "captions": [
-      "Camões Statue",
-      "Garden Fountain",
-      "Manicured Shrubs",
-      "Leiria Castle View",
-      "Shaded Walking Path",
-      "Urban Oasis",
-      "Leiria Old Town Streets",
-      "Local Cafe",
-      "Sunlit Bench",
-      "Garden Flowers",
-      "City Square",
-      "Portuguese Cobblestones",
-      "Garden at Dusk",
-      "Leiria Cathedral",
-      "Monument Details",
-      "Quiet Afternoon",
-      "Cityscape",
-      "Historical Architecture",
-      "Water Feature",
-      "Locals Relaxing"
+      "Blick auf den Dicker Turm",
+      "Wehrgang der Burg",
+      "Weinberge rund um die Burg",
+      "Panorama der Esslinger Altstadt",
+      "Mittelalterliche Befestigung",
+      "Überdachte Burgstaffel",
+      "Straßen der Esslinger Altstadt",
+      "Cafés in der Altstadt",
+      "Burgstaffel mit Holzdach",
+      "Weinberge am Schönenberg",
+      "Marktplatz Esslingen",
+      "Historisches Kopfsteinpflaster",
+      "Burg am Abend",
+      "Fachwerkhäuser der Altstadt",
+      "Historisches Mauerwerk",
+      "Ruhiger Nachmittag auf der Burg",
+      "Blick über die Dächer",
+      "Steinernes Mauerwerk",
+      "Neckartal",
+      "Erholung mit Aussicht"
     ],
     "viewAll": "Mehr Fotos auf Google Maps ansehen",
     "showAllPhotos": "Alle Fotos anzeigen"
   },
   "reviews": {
-    "title": "Besertungen",
+    "title": "Bewertungen",
     "declaration": "Bewertungsinformationen können über Google Maps eingesehen werden (externer Link).",
-    "moreReviews": "Mehr Bewertungen auf Google Maps ansehen",
+    "moreReviews": "Weitere Bewertungen auf Google Maps ansehen",
     "items": [
       {
-        "name": "João Silva",
-        "date": "2 months ago",
+        "name": "Maren",
+        "date": "vor 2 Monaten",
         "rating": 5,
-        "text": "A wonderful, well-preserved urban garden! The cobblestone paths and statues are full of history. Walking here is very relaxing. Highly recommend coming at sunset."
+        "text": "Der Aufstieg über die vielen Stufen ist anstrengend – aber der Blick über die Altstadt und das Neckartal entschädigt für alles! Unbedingt einkehren und den Ausblick genießen."
       },
       {
-        "name": "Maria Costa",
-        "date": "1 month ago",
+        "name": "Stefan",
+        "date": "vor 1 Monat",
         "rating": 5,
-        "text": "One of the most beautiful leisure spots in Leiria! The tranquility here is so relaxing, and the surrounding greenery is gorgeous. Be careful in summer as it can get hot, bring water and sunscreen."
+        "text": "Beeindruckende Stadtbefestigung! Vor allem der überdachte Seilergang hat mich ins Mittelalter zurückversetzt. Der Dicke Turm ist ein absolutes Muss bei jedem Esslingen-Besuch."
       },
       {
-        "name": "Carlos Rodrigues",
-        "date": "3 months ago",
+        "name": "Claudia",
+        "date": "vor 3 Monaten",
         "rating": 4,
-        "text": "An amazing place. The garden isn't huge, but the location is perfect. Had a great traditional Portuguese meal at a nearby restaurant. The only issue is finding parking during peak season."
+        "text": "Wunderbarer Ausblick über die Weinberge und die Fachwerkhäuser. Unbedingt feste Schuhe einpacken, die Wege sind steil. Oben gibt es einen Parkplatz, sehr praktisch mit Kindern."
       },
       {
-        "name": "Ana Martins",
-        "date": "Over 6 months ago",
+        "name": "Philipp",
+        "date": "vor 6 Monaten",
         "rating": 5,
-        "text": "A very romantic and charming place. We walked around here and the night view is absolutely stunning. Completely fell in love with it!"
-      },
-      {
-        "name": "Pedro Santos",
-        "date": "1 year ago",
-        "rating": 5,
-        "text": "The scenery here really lifts your mood. You can see the exquisite statue blending with the wide square. The garden itself is charming with many cafes around."
-      },
-      {
-        "name": "Teresa Ferreira",
-        "date": "Over 6 months ago",
-        "rating": 4,
-        "text": "Well worth a visit! It's very easy to walk here from Leiria Castle. Recommend wearing flat shoes due to the cobblestone paths. Locals are friendly, great spots for photos."
-      },
-      {
-        "name": "Rui Almeida",
-        "date": "3 months ago",
-        "rating": 5,
-        "text": "Feels like stepping back in time! Every path and fountain has its story. Resting on a bench makes you feel like time has stopped. A must-visit in Leiria."
-      },
-      {
-        "name": "Catarina Gomes",
-        "date": "2 months ago",
-        "rating": 5,
-        "text": "Beautiful beyond words. Whether it's the Camões statue or the green vegetation, you won't want to leave. Highly recommend sitting by the fountain, it feels amazing."
+        "text": "Sehr eindrucksvolle Anlage, kostenlos und rund um die Uhr zugänglich. Am schönsten ist es bei Sonnenuntergang, wenn die roten Dächer der Altstadt im Abendlicht leuchten."
       }
     ]
   },
   "mapSection": {
-    "title": "Anfahrt",
+    "title": "Anfahrt & Karte",
     "subtitle": "Esslinger Burg, 73728 Esslingen am Neckar, Deutschland",
     "openMaps": "Auf Google Maps ansehen"
   },
   "footer": {
     "rights": "© 2026 Esslinger Burg. Alle Rechte vorbehalten.",
+    "imageRights": "Alle auf dieser Website gezeigten Bilder unterliegen dem Urheberrecht ihrer jeweiligen Fotografen und Fotografinnen.",
     "privacy": "Datenschutz",
     "terms": "Nutzungsbedingungen",
     "cookies": "Cookie-Einstellungen",
-    "officialResourcesTitle": "Verwandte Ressourcen & Informationen",
+    "exploreTitle": "Beliebte Themen",
+    "exploreLinks": [
+      { "label": "Esslinger Burg Sehenswürdigkeiten", "id": "gallery" },
+      { "label": "Burg Esslingen besuchen", "id": "reviews" },
+      { "label": "Ausflug zur Esslinger Burg", "id": "map" }
+    ],
+    "officialResourcesTitle": "Offizielle Ressourcen & Informationen",
     "officialLinks": {
       "germany_travel": {
         "name": "Deutsche Zentrale für Tourismus",
@@ -298,7 +316,7 @@ export default {
         "name": "Landesamt für Denkmalpflege BW",
         "url": "https://www.denkmalpflege-bw.de/"
       },
-      "heidelberg_denkmal": {
+      "city_esslingen": {
         "name": "Stadtverwaltung Esslingen",
         "url": "https://www.esslingen.de/start"
       },
@@ -314,101 +332,192 @@ export default {
     "disclaimer": "Diese Website ist ein unabhängiges Informationsprojekt von Dritten."
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: May 2026",
+    "title": "Datenschutzerklärung",
+    "lastUpdated": "Zuletzt aktualisiert: Mai 2026",
     "sections": [
       {
-        "heading": "1. Information We Collect",
-        "content": "We only collect the minimum data necessary to provide our services. This data may include: browsing data (IP address, browser type, visited pages), cookies and similar technologies, and any information you voluntarily provide via contact forms or email."
+        "heading": "1. Welche Daten wir erheben",
+        "content": "Wir erheben nur die Daten, die für den Betrieb unserer Website unbedingt erforderlich sind. Dazu können gehören: Surf- und Nutzungsdaten (IP-Adresse, Browsertyp, besuchte Seiten), Cookies und ähnliche Technologien sowie Informationen, die Sie uns freiwillig über Kontaktformulare oder E-Mail übermitteln."
       },
       {
-        "heading": "2. How We Use Your Information",
-        "content": "We use the collected information to: improve website content and user experience, analyze traffic and usage patterns, respond to requests, and comply with our legal obligations."
+        "heading": "2. Wie wir Ihre Daten verwenden",
+        "content": "Wir verwenden die erhobenen Informationen, um: Inhalte und Nutzererfahrung unserer Website zu verbessern, Verkehr und Nutzungsverhalten zu analysieren, auf Anfragen zu antworten und unseren gesetzlichen Verpflichtungen nachzukommen."
       },
       {
-        "heading": "3. Third-Party Services",
-        "content": "Our website may use third-party services such as Google Maps (for embedded maps and location data), Google Analytics (for traffic analysis), and Unsplash (for images). These services have their own privacy policies."
+        "heading": "3. Dienste von Drittanbietern",
+        "content": "Unsere Website kann Dienste von Drittanbietern verwenden, z. B. Google Maps (eingebettete Karten und Standortdaten) und Google Analytics (Besuchsstatistik, nur mit Ihrer Einwilligung aktiviert). Alle Fotos und Medien dieser Website werden selbst gehostet. Für diese Dienste gelten die jeweiligen Datenschutzerklärungen der Anbieter."
       },
       {
-        "heading": "4. Your Rights",
-        "content": "Under the General Data Protection Regulation (GDPR) and related regulations, you have the right to: access your personal data, request correction or deletion, object to processing, and lodge a complaint with a supervisory authority."
+        "heading": "4. Ihre Rechte",
+        "content": "Nach der Datenschutz-Grundverordnung (DSGVO) und den einschlägigen Regelungen haben Sie das Recht: Auskunft über Ihre personenbezogenen Daten zu verlangen, deren Berichtigung oder Löschung zu beantragen, der Verarbeitung zu widersprechen und Beschwerde bei einer Aufsichtsbehörde einzulegen."
       }
     ]
   },
   "terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last Updated: May 2026",
+    "title": "Nutzungsbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert: Mai 2026",
     "sections": [
       {
-        "heading": "1. Acceptance of Terms",
-        "content": "By accessing and using this website, you agree to be bound by these terms of service."
+        "heading": "1. Geltung der Bedingungen",
+        "content": "Mit dem Zugriff auf und der Nutzung dieser Website erklären Sie sich mit diesen Nutzungsbedingungen einverstanden."
       },
       {
-        "heading": "2. Use of Content",
-        "content": "All content on this website is for informational purposes only. We are an independent third-party travel information website, not affiliated with any tourist attractions, government agencies, or commercial operators."
+        "heading": "2. Verwendung der Inhalte",
+        "content": "Alle Inhalte dieser Website dienen ausschließlich der Information. Wir betreiben ein unabhängiges Informationsprojekt von Dritten und stehen in keiner Verbindung zu Sehenswürdigkeiten, Behörden oder kommerziellen Betreibern."
       },
       {
-        "heading": "3. Accuracy of Information",
-        "content": "We strive to provide accurate and timely information, but we cannot guarantee its completeness or accuracy. Itineraries, conditions, and services are subject to change without notice. Always verify important information through official channels before traveling."
+        "heading": "3. Richtigkeit der Angaben",
+        "content": "Wir bemühen uns um korrekte und aktuelle Informationen, können deren Vollständigkeit oder Richtigkeit jedoch nicht garantieren. Reisehinweise, Zustände und angebotene Leistungen können sich ohne Vorankündigung ändern. Bitte prüfen Sie wichtige Informationen vor Ihrer Reise über die offiziellen Kanäle."
       },
       {
-        "heading": "4. Intellectual Property",
-        "content": "The design and original content of this website are protected by copyright. Images are sourced from Unsplash and used under license. The use of Google Maps data complies with Google's terms of service."
+        "heading": "4. Urheberrecht",
+        "content": "Design und Originalinhalte dieser Website sind urheberrechtlich geschützt. Alle auf dieser Website gezeigten Fotografien gehören ihren jeweiligen Urheberinnen und Urhebern und werden mit Erlaubnis gezeigt (siehe Bildrechte-Hinweis in der Fußzeile). Die Nutzung von Google-Maps-Daten erfolgt gemäß den Nutzungsbedingungen von Google."
       },
       {
-        "heading": "5. Limitation of Liability",
-        "content": "This website is provided \"as is\" without any warranties. We are not responsible for any losses resulting from the use of information on this website, including but not limited to travel decisions made based on its content."
+        "heading": "5. Haftungsbeschränkung",
+        "content": "Diese Website wird ohne jegliche Gewährleistung bereitgestellt („wie besehen“). Wir haften nicht für Schäden, die aus der Nutzung der Informationen auf dieser Website entstehen – einschließlich, aber nicht beschränkt auf Reiseentscheidungen, die auf Grundlage dieser Inhalte getroffen werden."
       }
     ]
   },
   "cookieSettings": {
-    "title": "Cookie Settings",
-    "description": "Last Updated: May 2026\n\nWe use cookies to improve your browsing experience. You can manage your preferences below.",
+    "title": "Cookie-Einstellungen",
+    "description": "Zuletzt aktualisiert: Mai 2026\n\nWir verwenden Cookies, um Ihr Surferlebnis zu verbessern. Sie können Ihre Einstellungen unten verwalten.",
     "essential": {
-      "title": "Essential Cookies",
-      "description": "These cookies are essential for the website to function properly and cannot be disabled.",
-      "badge": "Always Active"
+      "title": "Notwendige Cookies",
+      "description": "Diese Cookies sind für den Betrieb der Website erforderlich und können nicht deaktiviert werden.",
+      "badge": "Immer aktiv"
     },
     "analytics": {
-      "title": "Analytics Cookies",
-      "description": "They help us understand how visitors interact with our website by collecting anonymous usage data.",
+      "title": "Analyse-Cookies",
+      "description": "Sie helfen uns zu verstehen, wie Besucher mit unserer Website interagieren, indem sie anonyme Nutzungsdaten erheben.",
       "items": [
         {
           "name": "Google Analytics",
-          "status": "Active",
-          "description": "It collects anonymous information about how visitors use our website."
+          "status": "Aktiv",
+          "description": "Erhebt anonyme Informationen darüber, wie Besucher unsere Website nutzen."
         }
       ]
     },
     "marketing": {
-      "title": "Marketing Cookies",
-      "description": "They are used to show relevant advertisements and measure the effectiveness of ad campaigns.",
+      "title": "Marketing-Cookies",
+      "description": "Sie dienen dazu, relevante Werbung anzuzeigen und die Wirksamkeit von Werbekampagnen zu messen.",
       "items": [
         {
-          "name": "Personalized Ads",
-          "status": "Inactive",
-          "description": "It can show you relevant ads based on your interests."
+          "name": "Personalisierte Werbung",
+          "status": "Inaktiv",
+          "description": "Kann Ihnen auf Ihre Interessen abgestimmte Werbung anzeigen."
         }
       ]
     },
-    "save": "Save Preferences",
-    "saved": "Settings saved!",
+    "save": "Einstellungen speichern",
+    "saved": "Einstellungen gespeichert!",
     "preferences": {
       "items": [
         {
-          "name": "User Preferences",
-          "status": "Active",
-          "description": "Saves your language preferences and website settings."
+          "name": "Benutzereinstellungen",
+          "status": "Aktiv",
+          "description": "Speichert Ihre Sprach- und Website-Einstellungen."
         }
       ],
-      "title": "Preference Cookies",
-      "description": "They remember your settings, such as language and theme preferences."
+      "title": "Präferenz-Cookies",
+      "description": "Merken sich Ihre Einstellungen, z. B. Sprache und Design der Website."
     },
-    "consentManagement": "Consent Management: You can change your cookie settings at any time. Please note that disabling certain cookies may affect the website's functionality.",
-    "rejectAll": "Reject All"
+    "consentManagement": "Einwilligungsverwaltung: Sie können Ihre Cookie-Einstellungen jederzeit ändern. Bitte beachten Sie, dass das Deaktivieren bestimmter Cookies die Funktionalität der Website beeinträchtigen kann.",
+    "rejectAll": "Alle ablehnen"
+  },
+  "facilities": {
+    "eyebrow": "Planen Sie Ihren Besuch",
+    "title": "Praktische Infos auf einen Blick",
+    "description": "Neutrale Hinweise zu Toiletten, Parken, Essen, Übernachten, Einkaufen sowie Tank- und Ladestationen – ohne Werbung für einzelne Betriebe.",
+    "wc": {
+      "title": "Öffentliche Toiletten",
+      "text": "In der Altstadt finden Sie öffentliche Toiletten vor allem in den Parkhäusern und am Bahnhof. Im Burggelände selbst gibt es keine öffentlichen Toiletten – nutzen Sie die Gelegenheit in der Altstadt, bevor Sie die 332 Stufen hinaufsteigen."
+    },
+    "parking": {
+      "title": "Parken",
+      "text": "Oben auf dem Schönenberg liegt der gebührenpflichtige Burgparkplatz mit begrenzten Stellplätzen. Gute Alternativen sind die Parkhäuser am Rand der Altstadt, etwa in Bahnhofsnähe. Von dort sind es etwa 15–20 Gehminuten bis zur Burg."
+    },
+    "dining": {
+      "title": "Essen & Trinken",
+      "text": "Das historische Burgschänke-Gebäude am Burgplatz wird derzeit gastronomisch nicht genutzt. Dafür finden Sie in der Esslinger Altstadt Cafés, Bäckereien und Restaurants mit schwäbischer Küche – vom schnellen Mittagessen bis zum gemütlichen Gasthaus."
+    },
+    "stay": {
+      "title": "Übernachten",
+      "text": "Von Hotels über Pensionen bis zu Ferienwohnungen bietet Esslingen Unterkünfte in der Altstadt, an den Weinbergen und entlang des Neckars. Wer in der Nähe übernachtet, erlebt die beleuchtete Burg am Abend."
+    },
+    "shopping": {
+      "title": "Einkaufen & Lebensmittel",
+      "text": "Supermärkte und Geschäfte des täglichen Bedarfs liegen rund um den Bahnhof und an den Rändern der Fußgängerzone. Der Wochenmarkt auf dem Marktplatz bietet regionale Produkte – praktisch für ein Picknick im Burggarten."
+    },
+    "fuel": {
+      "title": "Tanken & E-Auto laden",
+      "text": "Tankstellen befinden sich an den Ausfallstraßen rund um die Stadt. Ladepunkte für Elektroautos gibt es unter anderem in den öffentlichen Parkhäusern der Altstadt. Prüfen Sie die Verfügbarkeit am besten kurz vor der Abfahrt."
+    }
+  },
+  "story": {
+    "eyebrow": "Geschichte & Hintergrund",
+    "title": "Die Esslinger Burg im Wandel der Zeit",
+    "intro": "Die Esslinger Burg ist kein Fürstenschloss, sondern das erhaltene Herzstück der mittelalterlichen Stadtbefestigung der freien Reichsstadt Esslingen. Über Jahrhunderte schützte die Anlage die Stadt am Neckar – heute ist sie deren schönster Aussichtspunkt und eine kostenlos zugängliche Parkanlage.",
+    "timelineTitle": "Meilensteine im Überblick",
+    "timeline": [
+      { "year": "777", "title": "Esslingen tritt ins Licht der Geschichte", "text": "Der Abt Fulrad von Saint-Denis überlässt seinen Besitz in Esslingen dem Kloster – die älteste urkundliche Erwähnung der späteren Stadt." },
+      { "year": "13. Jh.", "title": "Stadtmauer und Burg wachsen zusammen", "text": "Nach der Verleihung des Stadtrechts wächst Esslingen zur Reichsstadt. Um 1286/87 verbinden die sogenannten Schenkelmauern die Anhöhe oberhalb der Stadt mit der Stadtbefestigung." },
+      { "year": "1314", "title": "Erste urkundliche Erwähnung der Burg", "text": "Erstmals wird die Befestigung am Burgberg ausdrücklich als Burg erwähnt – als nördlichste Bastion der mittelalterlichen Stadtbefestigung." },
+      { "year": "1519–1531", "title": "Ausbau zur modernen Bastion", "text": "Die Anlage wird massiv erweitert und mit Geschützstellungen verstärkt. 1519 können die Esslinger einen Angriff von Herzog Ulrich von Württemberg erfolgreich abwehren." },
+      { "year": "1688", "title": "Zerstörung durch französische Truppen", "text": "Im Pfälzischen Erbfolgekrieg besetzen und verwüsten Truppen unter General Ezéchiel de Mélac weite Teile Esslingens. Das erhaltene Mélac-Häuschen am Burgberg erinnert noch heute an diese Zeit." },
+      { "year": "20. Jh.", "title": "Vom Festungswerk zur Parkanlage", "text": "Die Wehranlage verliert ihre militärische Bedeutung und wird zur öffentlichen Grünanlage mit Spielplatz. Heute ist das Gelände kostenlos und rund um die Uhr zugänglich." }
+    ],
+    "legendTitle": "Sagen, Anekdoten & Erstaunliches",
+    "legendNote": "Sagen sind mündlich überlieferte Erzählungen – sie gehören zur lokalen Erinnerungskultur, sind aber keine belegte Historie.",
+    "legends": [
+      { "title": "Die Frau am Mélac-Häuschen", "text": "Der Überlieferung nach soll sich im Jahr 1688 eine junge Esslingerin dem französischen General Mélac angeboten haben, um ihre Stadt vor der Zerstörung zu bewahren. Geholfen hat es nicht: Esslingen wurde schwer verwüstet. Die Erzählung zeigt eindrücklich, wie verzweifelt die Lage nach dem Einmarsch gewesen sein muss." },
+      { "title": "Wasserreservoir unter dem Spielplatz", "text": "Unter der großen Liegewiese mit dem Kinderspielplatz verbirgt sich ein unterirdischer Trinkwasserbehälter. Das Burgareal ist damit bis heute stiller Teil der städtischen Infrastruktur – nicht alles hier ist mittelalterlich." }
+    ],
+    "closing": "Wer heute über den Burgplatz blickt, sieht dieselbe Silhouette aus Hochwacht, Dickem Turm und Seilergang, die seit Jahrhunderten über Esslingen wacht – Stadtgeschichte, die man auf Schritt und Tritt spürt."
+  },
+  "weather": {
+    "title": "Wetter in Esslingen am Neckar",
+    "subtitle": "Auf dem Burgberg weht es oft spürbar frischer als unten in der Altstadt. Ein kurzer Wettercheck vor dem Aufstieg verrät, ob Sie Regenschirm oder Sonnenhut einpacken sollten.",
+    "now": "Jetzt",
+    "feelsLike": "Gefühlt",
+    "humidity": "Luftfeuchtigkeit",
+    "wind": "Wind",
+    "rainChance": "Regenrisiko",
+    "today": "Heute",
+    "fallback": "Die Wetterdaten sind derzeit nicht abrufbar. Bitte informieren Sie sich kurz vor Ihrem Besuch erneut.",
+    "codes": {
+      "0": "Klar",
+      "1": "Überwiegend sonnig",
+      "2": "Teilweise bewölkt",
+      "3": "Bedeckt",
+      "45": "Nebel",
+      "48": "Gefrierender Nebel",
+      "51": "Leichter Nieselregen",
+      "53": "Nieselregen",
+      "55": "Starker Nieselregen",
+      "56": "Gefrierender Nieselregen",
+      "57": "Starker gefrierender Nieselregen",
+      "61": "Leichter Regen",
+      "63": "Regen",
+      "65": "Starker Regen",
+      "66": "Gefrierender Regen",
+      "67": "Starker gefrierender Regen",
+      "71": "Leichter Schneefall",
+      "73": "Schneefall",
+      "75": "Starker Schneefall",
+      "77": "Schneegriesel",
+      "80": "Leichte Regenschauer",
+      "81": "Regenschauer",
+      "82": "Kräftige Regenschauer",
+      "85": "Leichte Schneeschauer",
+      "86": "Schneeschauer",
+      "95": "Gewitter",
+      "96": "Gewitter mit leichtem Hagel",
+      "99": "Gewitter mit Hagel"
+    }
   },
   "officialManagement": {
-    "title": "About Jardim Luís de Camões",
-    "text": "Jardim Luís de Camões is an important memorial garden in the center of Leiria, managed and maintained by the Leiria City Council (Câmara Municipal de Leiria)."
+    "title": "Über die Esslinger Burg",
+    "text": "Die Esslinger Burg ist ein bedeutendes historisches Bauwerk der Stadt Esslingen am Neckar und ein Teil der mittelalterlichen Stadtbefestigung. Die frei zugänglichen Außenanlagen werden von der Stadt Esslingen und der Denkmalpflege gepflegt und betreut."
   }
 };

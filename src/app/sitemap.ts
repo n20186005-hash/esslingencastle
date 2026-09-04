@@ -1,9 +1,10 @@
 import { MetadataRoute } from 'next';
+import { SITE_DOMAIN } from '@/content/esslinger-burg';
 
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://esslingencastle.com';
+  const baseUrl = `https://${SITE_DOMAIN}`;
   const locales = ['zh', 'en', 'de'];
   const routes = ['', '/privacy-policy', '/terms-of-service', '/cookie-settings'];
 

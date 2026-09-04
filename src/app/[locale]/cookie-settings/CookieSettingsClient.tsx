@@ -69,8 +69,20 @@ export default function CookieSettingsClient() {
     } catch {}
   }, []);
 
+  function applyAnalyticsConsent(enabled: boolean) {
+    try {
+      const w = window as any;
+      if (typeof w.gtag === 'function') {
+        w.gtag('consent', 'update', {
+          analytics_storage: enabled ? 'granted' : 'denied',
+        });
+      }
+    } catch {}
+  }
+
   function handleSave() {
     localStorage.setItem('cookiePrefs', JSON.stringify({ analytics, preferences, marketing }));
+    applyAnalyticsConsent(analytics);
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   }
@@ -80,6 +92,7 @@ export default function CookieSettingsClient() {
     setPreferences(false);
     setMarketing(false);
     localStorage.setItem('cookiePrefs', JSON.stringify({ analytics: false, preferences: false, marketing: false }));
+    applyAnalyticsConsent(false);
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   }
@@ -96,7 +109,7 @@ export default function CookieSettingsClient() {
             <line x1="19" y1="12" x2="5" y2="12" />
             <polyline points="12 19 5 12 12 5" />
           </svg>
-          {ht('backToHome')}
+          {ht('backToHome')} · {ht('homeKeyword')}
         </a>
 
         <h1 className="font-display text-3xl sm:text-4xl font-bold mb-3" style={{ color: 'var(--text-primary)' }}>

@@ -13,7 +13,8 @@ export default function Gallery() {
   const [showAll, setShowAll] = useState(false);
 
   const photos = photoIndices.map((num, i) => ({
-    src: `/gallery/esslingen-castle (${num}).jpg`,
+    full: `/gallery/esslingen-castle (${num}).jpg`,
+    thumb: `/gallery/esslingen-castle (${num})-thumb.jpg`,
     alt: captions?.[i] || `Esslingen Castle ${num}`,
   }));
 
@@ -58,11 +59,12 @@ export default function Gallery() {
                   }}
                 >
                   <img
-                    src={photo.src}
+                    src={photo.thumb}
                     alt={photo.alt}
                     className="w-full h-full object-cover rounded-lg"
                     style={{ minHeight: i === 0 ? '400px' : '180px' }}
-                    loading="lazy"
+                    loading={i === 0 ? 'eager' : 'lazy'}
+                    decoding="async"
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-lg flex items-end">
                     <p className="text-white text-sm p-3 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -124,7 +126,7 @@ export default function Gallery() {
           </button>
 
           <img
-            src={photos[currentIndex].src}
+            src={photos[currentIndex].full}
             alt={photos[currentIndex].alt}
             className="max-w-[90vw] max-h-[85vh] object-contain rounded-lg"
             onClick={(e) => e.stopPropagation()}
