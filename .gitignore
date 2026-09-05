@@ -12,6 +12,12 @@
 /.next/
 /out/
 
+# opennext / wrangler (Cloudflare Workers)
+/.open-next/
+/.wrangler/
+.dev.vars
+wrangler.jsonc.local
+
 # production
 /build
 
