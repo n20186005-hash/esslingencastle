@@ -1,7 +1,7 @@
 export default {
   "meta": {
-    "title": "Esslingen Castle – The #1 Attraction in Esslingen am Neckar",
-    "description": "Visit the historic Esslinger Burg! Enjoy the best panoramic views over Esslingen's old town, the Burggarten & fortifications. Free entry & perfect for day trips. Find out more!"
+    "title": "Esslinger Burg (Esslingen Castle): Free Entry, 332 Steps & View | Esslingen",
+    "description": "Visit Esslinger Burg in Esslingen am Neckar: free entry, the 332-step Burgstaffel, panoramic views over the old town, plus up-to-date info on getting there, parking and history."
   },
   "header": {
     "home": "Home",
@@ -15,7 +15,7 @@ export default {
     "title": "Esslingen Castle",
     "subtitle": "Esslingen · Germany",
     "rating": "4.7",
-    "reviewCount": "5,857",
+    "reviewCount": "5,902",
     "hours": "Free & Always Open",
     "openMaps": "View Location"
   },
@@ -85,7 +85,7 @@ export default {
     "outdoorTime": "Free access all year round, open around the clock – no ticket required",
     "lighthouse": "Nearby Attractions",
     "summer": "Dicker Turm & Hochwacht",
-    "summerTime": "Visible at any time from outside; interiors only accessible during special guided tours",
+    "summerTime": "Visible from outside at any time. The interior (viewing platform) is currently open on guided tours – for example on the public tower tours run by Esslingen Marketing. Check dates in advance.",
     "winter": "Seilergang & Rampart Walk",
     "winterTime": "Accessible all year round",
     "warning": "Burgplatz & Viewpoints",
@@ -98,11 +98,11 @@ export default {
     "outdoorPrice": "Free entry – all year round",
     "lighthouse": "Paid Options Nearby",
     "adults": "Guided city & castle tours",
-    "adultsPrice": "Tickets required, e.g. via Esslingen Marketing",
+    "adultsPrice": "Tickets required, e.g. via Esslingen Marketing (including tower climbs)",
     "students": "Summer open-air events",
     "studentsPrice": "Ticket prices vary by event",
     "children": "Parking",
-    "childrenPrice": "Paid castle car park on the Schönenberg & car parks at the edge of the old town",
+    "childrenPrice": "Currently free castle car park on the Schönenberg (with parking disc) & car parks at the edge of the old town",
     "card": "Visitor Note",
     "cardPrice": "The castle grounds themselves are free – charges only apply to tours, events or parking"
   },
@@ -111,7 +111,7 @@ export default {
     "airport": "From the Airport",
     "airportDesc": "Nearest airport: Stuttgart (STR), about 15 km away (approx. 20 minutes by car). Frankfurt (FRA) is about 200 km away (approx. 2 hours by car or train).",
     "selfDrive": "By Car",
-    "selfDriveDesc": "Esslingen is easily reached via the B10. Set your navigation to “Esslinger Burg” – Plus Code: P8W5+5X Esslingen. There is a paid castle car park on the Schönenberg; alternatively, use one of the car parks at the edge of the old town.",
+    "selfDriveDesc": "Esslingen is easily reached via the B10. Set your navigation to “Esslinger Burg” – Plus Code: P8W5+5X Esslingen. There is currently a free castle car park on the Schönenberg (use a parking disc); alternatively, use one of the car parks at the edge of the old town.",
     "bus": "By Train & Bus",
     "busDesc": "From Stuttgart main station, the S-Bahn line S1 takes you directly to Esslingen in about 15–20 minutes. From Esslingen station, the castle is a 15–20 minute walk through the old town and up the Burgstaffel.",
     "intercity": "On Foot from the Old Town",
@@ -213,7 +213,7 @@ export default {
         "Free entry: castle grounds, Burggarten & Burgplatz open at no cost",
         "Open all year – no opening hours, no reservation needed",
         "Getting there: S-Bahn S1 to Esslingen, then a 15–20 minute walk",
-        "Parking: castle car park on the Schönenberg or old-town car parks",
+        "Parking: currently free castle car park on the Schönenberg (with parking disc) or old-town car parks",
         "Navigation: Plus Code P8W5+5X Esslingen"
       ]
     }
@@ -292,7 +292,8 @@ export default {
     "exploreLinks": [
       { "label": "Esslinger Burg attractions", "id": "gallery" },
       { "label": "Visit Esslinger Burg", "id": "reviews" },
-      { "label": "Day trip to Esslinger Burg", "id": "map" }
+      { "label": "Day trip to Esslinger Burg", "id": "map" },
+      { "label": "Things to see in Esslingen", "href": "/esslingen-sehenswuerdigkeiten" }
     ],
     "officialResourcesTitle": "Official Resources & Information",
     "officialLinks": {
@@ -435,7 +436,7 @@ export default {
     },
     "parking": {
       "title": "Parking",
-      "text": "Up on the Schönenberg there is a paid castle car park with a limited number of spaces. Good alternatives are the multi-storey car parks on the edge of the old town, for example near the station. From there it takes about 15–20 minutes on foot to the castle."
+      "text": "Up on the Schönenberg the castle car park is currently free and used with a parking disc – the city of Esslingen has temporarily suspended the parking charge and taken the ticket machines out of service (as of October 2026). Spaces are limited. Good alternatives are the multi-storey car parks on the edge of the old town, for example near the station. From there it takes about 15–20 minutes on foot to the castle."
     },
     "dining": {
       "title": "Food & drink",
@@ -519,5 +520,81 @@ export default {
   "officialManagement": {
     "title": "About Esslinger Burg",
     "text": "Esslinger Burg is an important historic structure in the city of Esslingen am Neckar and part of the medieval city fortifications. The freely accessible outdoor grounds are maintained and cared for by the city of Esslingen and the monument preservation authorities."
+  },
+  "sehenswuerdigkeiten": {
+    "metaTitle": "Things to See in Esslingen am Neckar: Old Town, Castle & Vineyards",
+    "metaDescription": "The best sights in Esslingen am Neckar: Esslinger Burg, the historic old town, market square, St. Dionys Church, vineyards and the Neckar promenade – with map, directions and a walking tour.",
+    "heroTitle": "Things to See in Esslingen am Neckar",
+    "heroSubtitle": "From Esslinger Burg to the medieval old town – the finest sights at a glance.",
+    "intro": "Esslingen am Neckar is one of the best-preserved medieval towns in southern Germany. Within a compact area you will find the freely accessible Esslinger Burg, a largely intact half-timbered old town, ecclesiastical monuments and a belt of vineyards directly above the Neckar. Most highlights are within a 15–20 minute walk.",
+    "introMore": "A half-day walk links the castle, the old town and the vineyards – ideal for a day trip from Stuttgart (only about 15 minutes by train).",
+    "listTitle": "The Top Sights",
+    "listSubtitle": "Six stops that define Esslingen – from the viewpoint to the vineyard.",
+    "attractions": [
+      {
+        "name": "Esslinger Burg",
+        "desc": "The northernmost bastion of the medieval city fortifications with panoramic views over the old town. Castle garden, castle square and rampart walks are freely accessible all year round.",
+        "tag": "Viewpoint & History"
+      },
+      {
+        "name": "Market Square & Historic Town Hall",
+        "desc": "The heart of the old town with the late-Gothic Town Hall (c. 1430) and the market fountain – the starting point for most city tours.",
+        "tag": "Old Town"
+      },
+      {
+        "name": "Stadtkirche St. Dionys",
+        "desc": "The Gothic main church of the former imperial city with remarkable late-Gothic furnishings and a clear view of the castle from the church square.",
+        "tag": "Church"
+      },
+      {
+        "name": "Half-Timbered Old Town & City Wall",
+        "desc": "Hundreds of well-preserved half-timbered houses and remains of the medieval city wall with towers such as the Pulverturm (Powder Tower).",
+        "tag": "Architecture"
+      },
+      {
+        "name": "Esslingen Vineyards & Höhenweg",
+        "desc": "Steep slopes above the Neckar with the Esslinger Höhenweg trail – wine, views and short walks right next to the town.",
+        "tag": "Nature & Wine"
+      },
+      {
+        "name": "Neckar Harbour & Riverside Promenade",
+        "desc": "The riverside promenade and harbour invite walks, boat trips and an excursion to neighbouring Mettingen.",
+        "tag": "Water & Relaxation"
+      }
+    ],
+    "routeTitle": "Half-Day Walking Tour (about 3 hours)",
+    "routeSubtitle": "A walking route linking the castle, the old town and the vineyards.",
+    "routeSteps": [
+      "Start at Esslingen station, then walk through the old town to the market square",
+      "Explore the market square: historic Town Hall, market fountain and half-timbered houses",
+      "Climb to Esslinger Burg via the roofed Burgstaffel staircase (332 steps)",
+      "On the castle: Dicker Turm, Hochwacht, Seilergang and enjoy the panorama",
+      "Descend via the Steige path through the vineyards back to the old town",
+      "Finish at the Neckar promenade or over Swabian food in the old town"
+    ],
+    "mapTitle": "Getting There & Map",
+    "mapSubtitle": "Esslinger Burg, 73728 Esslingen am Neckar, Germany",
+    "backHome": "Back to Esslinger Burg",
+    "faq": {
+      "title": "Frequently Asked Questions about Esslingen",
+      "items": [
+        {
+          "q": "What are the main sights in Esslingen?",
+          "a": "The best-known sights are the freely accessible Esslinger Burg, the medieval old town with market square and Historic Town Hall, the Gothic St. Dionys Church, the surviving half-timbered houses and the vineyards above the Neckar."
+        },
+        {
+          "q": "How much time do you need for Esslingen?",
+          "a": "For the central highlights (old town and castle) 2–3 hours is enough. If you include the vineyards and the Neckar promenade, plan for half a day."
+        },
+        {
+          "q": "Is Esslingen easy to reach from Stuttgart?",
+          "a": "Yes. With the S-Bahn S1 you reach Esslingen directly from Stuttgart main station in about 15–20 minutes."
+        },
+        {
+          "q": "Is there a free viewpoint?",
+          "a": "Yes. Esslinger Burg with castle square and castle garden is free all year round and open around the clock – one of the best panoramic views over the old town."
+        }
+      ]
+    }
   }
 };

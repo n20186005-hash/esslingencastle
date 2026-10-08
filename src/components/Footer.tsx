@@ -8,7 +8,7 @@ export default function Footer() {
   const officialLinks = messages?.footer?.officialLinks
     ? Object.values(messages.footer.officialLinks as Record<string, { name: string; url: string }>)
     : [];
-  const exploreLinks: { label: string; id: string }[] = messages?.footer?.exploreLinks || [];
+  const exploreLinks: { label: string; id?: string; href?: string }[] = messages?.footer?.exploreLinks || [];
 
   return (
     <footer
@@ -34,7 +34,7 @@ export default function Footer() {
               {exploreLinks.map((link, i) => (
                 <a
                   key={i}
-                  href={`${prefix}/#${link.id}`}
+                  href={link.href ? `${prefix}${link.href}` : `${prefix}#${link.id}`}
                   className="text-sm hover:underline"
                   style={{ color: 'var(--accent)' }}
                 >

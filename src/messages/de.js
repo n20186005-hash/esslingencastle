@@ -1,7 +1,7 @@
 export default {
   "meta": {
-    "title": "Esslinger Burg – Die #1 Sehenswürdigkeit in Esslingen am Neckar",
-    "description": "Besuchen Sie die historische Esslinger Burg! Genießen Sie den besten Panoramablick über die Altstadt, den Burggarten & Wehranlagen. Eintritt frei & ideal für Ausflüge. Jetzt informieren!"
+    "title": "Esslinger Burg: Eintritt, Aufstieg & Aussicht | Esslingen",
+    "description": "Esslinger Burg besuchen: kostenloser Eintritt, 332 Stufen, Panoramablick über die Altstadt sowie aktuelle Infos zu Anreise, Parken und Geschichte."
   },
   "header": {
     "home": "Startseite",
@@ -15,7 +15,7 @@ export default {
     "title": "Esslinger Burg",
     "subtitle": "Esslingen am Neckar · Deutschland",
     "rating": "4.7",
-    "reviewCount": "5,857",
+    "reviewCount": "5,902",
     "hours": "Kostenlos & immer geöffnet",
     "openMaps": "Standort ansehen"
   },
@@ -85,7 +85,7 @@ export default {
     "outdoorTime": "Ganzjährig frei zugänglich, rund um die Uhr geöffnet – keine Eintrittskarte nötig",
     "lighthouse": "Sehenswertes in der Umgebung",
     "summer": "Dicker Turm & Hochwacht",
-    "summerTime": "Äußerlich jederzeit zu besichtigen; Innenräume nur bei besonderen Führungen zugänglich",
+    "summerTime": "Von außen jederzeit zu besichtigen. Die Innenräume (Aussichtsplattform) sind aktuell im Rahmen von Führungen zugänglich – z. B. bei den öffentlichen Turmführungen von Esslingen Marketing. Termine vorab prüfen.",
     "winter": "Seilergang & Wehrgang",
     "winterTime": "Ganzjährig begehbar",
     "warning": "Burgplatz & Aussichtspunkte",
@@ -98,11 +98,11 @@ export default {
     "outdoorPrice": "Eintritt frei – ganzjährig",
     "lighthouse": "Kostenpflichtige Angebote in der Nähe",
     "adults": "Geführte Stadt- & Burgführungen",
-    "adultsPrice": "Gegen Gebühr, z. B. über Esslingen Marketing",
+    "adultsPrice": "Gegen Gebühr, z. B. über Esslingen Marketing (u. a. mit Turmbesteigung)",
     "students": "Open-Air-Veranstaltungen im Sommer",
     "studentsPrice": "Ticketpreise je nach Veranstaltung",
     "children": "Parken",
-    "childrenPrice": "Gebührenpflichtiger Burgparkplatz auf dem Schönenberg & Parkhäuser am Altstadtrand",
+    "childrenPrice": "Derzeit kostenloser Burgparkplatz auf dem Schönenberg (mit Parkscheibe) & Parkhäuser am Altstadtrand",
     "card": "Besucherhinweis",
     "cardPrice": "Die Burganlage selbst ist kostenlos – Kosten entstehen nur für Führungen, Veranstaltungen oder das Parken"
   },
@@ -111,7 +111,7 @@ export default {
     "airport": "Vom Flughafen",
     "airportDesc": "Nächstgelegener Flughafen: Stuttgart (STR), ca. 15 km entfernt (ca. 20 Autominuten). Frankfurt (FRA) liegt ca. 200 km entfernt (ca. 2 Stunden mit Auto oder Bahn).",
     "selfDrive": "Mit dem Auto",
-    "selfDriveDesc": "Über die B10 erreichen Sie Esslingen bequem. Navigieren Sie am besten direkt zur „Esslinger Burg“ – Plus Code: P8W5+5X Esslingen. Oben auf dem Schönenberg gibt es einen gebührenpflichtigen Burgparkplatz; alternativ parken Sie in einem der Parkhäuser am Rand der Altstadt.",
+    "selfDriveDesc": "Über die B10 erreichen Sie Esslingen bequem. Navigieren Sie am besten direkt zur „Esslinger Burg“ – Plus Code: P8W5+5X Esslingen. Oben auf dem Schönenberg gibt es derzeit einen kostenlosen Burgparkplatz (mit Parkscheibe); alternativ parken Sie in einem der Parkhäuser am Rand der Altstadt.",
     "bus": "Mit Bus & Bahn",
     "busDesc": "Vom Stuttgarter Hauptbahnhof fährt die S-Bahn-Linie S1 in ca. 15–20 Minuten direkt nach Esslingen. Vom Bahnhof Esslingen erreichen Sie die Burg zu Fuß in ca. 15–20 Minuten durch die Altstadt und über die Burgstaffel.",
     "intercity": "Zu Fuß aus der Altstadt",
@@ -213,7 +213,7 @@ export default {
         "Eintritt frei: Burganlage, Burggarten & Burgplatz kostenlos zugänglich",
         "Ganzjährig geöffnet – keine Öffnungszeiten, keine Reservierung nötig",
         "Anreise: S-Bahn S1 bis Esslingen, dann ca. 15–20 Gehminuten",
-        "Parken: Burgparkplatz auf dem Schönenberg oder Parkhäuser am Altstadtrand",
+        "Parken: derzeit kostenloser Burgparkplatz auf dem Schönenberg (mit Parkscheibe) oder Parkhäuser am Altstadtrand",
         "Navigation: Plus Code P8W5+5X Esslingen"
       ]
     }
@@ -292,7 +292,8 @@ export default {
     "exploreLinks": [
       { "label": "Esslinger Burg Sehenswürdigkeiten", "id": "gallery" },
       { "label": "Burg Esslingen besuchen", "id": "reviews" },
-      { "label": "Ausflug zur Esslinger Burg", "id": "map" }
+      { "label": "Ausflug zur Esslinger Burg", "id": "map" },
+      { "label": "Sehenswürdigkeiten Esslingen", "href": "/esslingen-sehenswuerdigkeiten" }
     ],
     "officialResourcesTitle": "Offizielle Ressourcen & Informationen",
     "officialLinks": {
@@ -435,7 +436,7 @@ export default {
     },
     "parking": {
       "title": "Parken",
-      "text": "Oben auf dem Schönenberg liegt der gebührenpflichtige Burgparkplatz mit begrenzten Stellplätzen. Gute Alternativen sind die Parkhäuser am Rand der Altstadt, etwa in Bahnhofsnähe. Von dort sind es etwa 15–20 Gehminuten bis zur Burg."
+      "text": "Der Burgparkplatz oben auf dem Schönenberg ist aktuell kostenlos und wird mit einer Parkscheibe (Parkuhr) genutzt – die Stadt Esslingen hat die Gebührenregelung vorübergehend ausgesetzt und die Parkscheinautomaten außer Betrieb genommen (Stand Oktober 2026). Die Plätze sind begrenzt. Gute Alternativen sind die Parkhäuser am Rand der Altstadt, etwa in Bahnhofsnähe. Von dort sind es etwa 15–20 Gehminuten bis zur Burg."
     },
     "dining": {
       "title": "Essen & Trinken",
@@ -519,5 +520,81 @@ export default {
   "officialManagement": {
     "title": "Über die Esslinger Burg",
     "text": "Die Esslinger Burg ist ein bedeutendes historisches Bauwerk der Stadt Esslingen am Neckar und ein Teil der mittelalterlichen Stadtbefestigung. Die frei zugänglichen Außenanlagen werden von der Stadt Esslingen und der Denkmalpflege gepflegt und betreut."
+  },
+  "sehenswuerdigkeiten": {
+    "metaTitle": "Sehenswürdigkeiten Esslingen am Neckar: Altstadt, Burg & Weinberge",
+    "metaDescription": "Die schönsten Ausflugsziele in Esslingen am Neckar: Esslinger Burg, historische Altstadt, Marktplatz, Stadtkirche St. Dionys, Weinberge und Neckarpromenade – mit Karte, Anreise und Rundtour.",
+    "heroTitle": "Sehenswürdigkeiten in Esslingen am Neckar",
+    "heroSubtitle": "Von der Esslinger Burg bis zur mittelalterlichen Altstadt – die schönsten Ausflugsziele auf einen Blick.",
+    "intro": "Esslingen am Neckar gilt als eine der besterhaltenen mittelalterlichen Städte Süddeutschlands. Auf engem Raum finden sich die frei zugängliche Esslinger Burg, eine weitgehend geschlossene Fachwerkaltstadt, kirchliche Baudenkmäler und ein Weinberggürtel direkt über dem Neckar. Die meisten Highlights erreichen Sie zu Fuß innerhalb von 15–20 Minuten.",
+    "introMore": "Eine halbtägige Wanderung verbindet Burg, Altstadt und Weinberge – ideal für einen Tagesausflug von Stuttgart aus (nur etwa 15 Bahnminuten entfernt).",
+    "listTitle": "Die Top-Sehenswürdigkeiten",
+    "listSubtitle": "Sechs Stationen, die Esslingen ausmachen – von der Aussichtsplattform bis zum Weinberg.",
+    "attractions": [
+      {
+        "name": "Esslinger Burg",
+        "desc": "Die nördlichste Bastion der mittelalterlichen Stadtbefestigung mit Panoramablick über die Altstadt. Burggarten, Burgplatz und Wehrgänge sind ganzjährig kostenlos zugänglich.",
+        "tag": "Aussicht & Geschichte"
+      },
+      {
+        "name": "Marktplatz & Historisches Rathaus",
+        "desc": "Das Herz der Altstadt mit dem spätgotischen Rathaus (um 1430) und dem Marktbrunnen – Startpunkt der meisten Stadtführungen.",
+        "tag": "Altstadt"
+      },
+      {
+        "name": "Stadtkirche St. Dionys",
+        "desc": "Die gotische Hauptkirche der ehemaligen Reichsstadt mit bemerkenswerter spätgotischer Ausstattung und freiem Blick vom Kirchplatz auf die Burg.",
+        "tag": "Kirche"
+      },
+      {
+        "name": "Fachwerkaltstadt & Stadtmauer",
+        "desc": "Hunderte gut erhaltene Fachwerkhäuser und Reste der mittelalterlichen Stadtmauer mit Türmen wie dem Pulverturm.",
+        "tag": "Architektur"
+      },
+      {
+        "name": "Esslinger Weinberge & Höhenweg",
+        "desc": "Steillagen oberhalb des Neckars mit dem Esslinger Höhenweg – Wein, Ausblick und kurze Wanderungen direkt an der Stadt.",
+        "tag": "Natur & Wein"
+      },
+      {
+        "name": "Neckarhafen & Uferpromenade",
+        "desc": "Die Uferpromenade und der Hafen laden zu Spaziergängen, Bootstouren und einem Abstecher ins benachbarte Mettingen ein.",
+        "tag": "Wasser & Erholung"
+      }
+    ],
+    "routeTitle": "Halbtägige Rundtour (ca. 3 Stunden)",
+    "routeSubtitle": "Ein Fußweg, der Burg, Altstadt und Weinberge verbindet.",
+    "routeSteps": [
+      "Start am Bahnhof Esslingen, dann durch die Altstadt zum Marktplatz",
+      "Marktplatz erkunden: Historisches Rathaus, Marktbrunnen und Fachwerkhäuser",
+      "Aufstieg zur Esslinger Burg über die überdachte Burgstaffel (332 Stufen)",
+      "Auf der Burg: Dicker Turm, Hochwacht, Seilergang und den Panoramablick genießen",
+      "Abstieg über die Steige durch die Weinberge zurück in die Altstadt",
+      "Abschluss an der Neckarpromenade oder bei schwäbischem Essen in der Altstadt"
+    ],
+    "mapTitle": "Anreise & Karte",
+    "mapSubtitle": "Esslinger Burg, 73728 Esslingen am Neckar, Deutschland",
+    "backHome": "Zurück zur Esslinger Burg",
+    "faq": {
+      "title": "Häufige Fragen zu Esslingen",
+      "items": [
+        {
+          "q": "Was sind die wichtigsten Sehenswürdigkeiten in Esslingen?",
+          "a": "Die bekanntesten Ziele sind die frei zugängliche Esslinger Burg, die mittelalterliche Altstadt mit Marktplatz und Historischem Rathaus, die gotische Stadtkirche St. Dionys, die erhaltenen Fachwerkhäuser und die Weinberge oberhalb des Neckars."
+        },
+        {
+          "q": "Wie viel Zeit braucht man für Esslingen?",
+          "a": "Für die zentralen Highlights (Altstadt und Burg) reichen 2–3 Stunden. Wer Weinberge und Neckarpromenade einbezieht, plant halbtags ein."
+        },
+        {
+          "q": "Ist Esslingen von Stuttgart aus gut erreichbar?",
+          "a": "Ja. Mit der S-Bahn S1 erreichen Sie Esslingen in etwa 15–20 Minuten direkt vom Stuttgarter Hauptbahnhof."
+        },
+        {
+          "q": "Gibt es eine kostenlose Aussichtsplattform?",
+          "a": "Ja. Die Esslinger Burg mit Burgplatz und Burggarten ist ganzjährig kostenlos und rund um die Uhr geöffnet – einer der besten Panoramablicke über die Altstadt."
+        }
+      ]
+    }
   }
 };

@@ -10,6 +10,7 @@ export const routing = defineRouting({
     '/privacy-policy': '/privacy-policy',
     '/terms-of-service': '/terms-of-service',
     '/cookie-settings': '/cookie-settings',
+    '/esslingen-sehenswuerdigkeiten': '/esslingen-sehenswuerdigkeiten',
   },
 });
 

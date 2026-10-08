@@ -6,7 +6,8 @@ export const dynamic = 'force-static';
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = `https://${SITE_DOMAIN}`;
   const locales = ['zh', 'en', 'de'];
-  const routes = ['', '/privacy-policy', '/terms-of-service', '/cookie-settings'];
+  // Legal pages are intentionally excluded (noindex, follow) so they are not indexed.
+  const routes = ['', '/esslingen-sehenswuerdigkeiten'];
 
   const sitemap: MetadataRoute.Sitemap = [];
 

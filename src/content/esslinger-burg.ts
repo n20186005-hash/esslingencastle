@@ -14,7 +14,7 @@ export type Locale = (typeof LOCALES)[number];
  *   NEXT_PUBLIC_CURRENT_SITE_DOMAIN=example.com npm run build
  * Falls back to the default domain of this project.
  */
-export const DEFAULT_SITE_DOMAIN = 'esslingencastle.com';
+export const DEFAULT_SITE_DOMAIN = 'www.esslingencastle.com';
 export const SITE_DOMAIN: string =
   process.env.NEXT_PUBLIC_CURRENT_SITE_DOMAIN || DEFAULT_SITE_DOMAIN;
 
@@ -36,7 +36,8 @@ export const siteFacts = {
   longitude: 9.309966,
   telephone: '+4971141111700',
   ratingValue: '4.7',
-  reviewCount: '5857',
+  reviewCount: '5902',
+  ratingCheckedDate: 'Oktober 2026',
   mapsShareUrl: 'https://maps.app.goo.gl/khRRKyGF1aMdSVT69',
   mapsEmbedSrc:
     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3716.8457936044356!2d9.309965999999998!3d48.74541209999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799c6ccd4853f05%3A0xa8807d6057b13656!2sEsslingen%20Castle!5e1!3m2!1sen!2s!4v1788534980628!5m2!1sen!2s',
@@ -150,7 +151,7 @@ export const officialLinks: Record<Locale, { name: string; url: string; note: st
     {
       name: 'Google Maps – Esslinger Burg',
       url: 'https://maps.app.goo.gl/khRRKyGF1aMdSVT69',
-      note: 'Standort- und Bewertungsdaten (4,7/5 aus 5.857 Bewertungen)',
+      note: 'Standort- und Bewertungsdaten (4,7/5 aus 5.902 Bewertungen, Stand Oktober 2026)',
     },
   ],
   en: [
@@ -182,7 +183,7 @@ export const officialLinks: Record<Locale, { name: string; url: string; note: st
     {
       name: 'Google Maps – Esslinger Burg',
       url: 'https://maps.app.goo.gl/khRRKyGF1aMdSVT69',
-      note: 'Location and review data (4.7/5 from 5,857 reviews)',
+      note: 'Location and review data (4.7/5 from 5,902 reviews, checked October 2026)',
     },
   ],
   zh: [
@@ -214,7 +215,7 @@ export const officialLinks: Record<Locale, { name: string; url: string; note: st
     {
       name: 'Google 地图 – Esslinger Burg',
       url: 'https://maps.app.goo.gl/khRRKyGF1aMdSVT69',
-      note: '位置与点评数据（4.7/5，共 5,857 条点评）',
+      note: '位置与点评数据（4.7/5，共 5,902 条点评，2026 年 10 月核验）',
     },
   ],
 };
@@ -236,7 +237,7 @@ export const faqCopy: Record<Locale, { title: string; subtitle: string; items: F
       },
       {
         q: 'Wie komme ich am besten zur Esslinger Burg?',
-        a: 'Zu Fuß erreichen Sie die Burg in ca. 15 Minuten von der Altstadt über die 332-stufige Burgstaffel. Bequemer ist der Weg über die Serpentinen-Steige durch die Weinberge. Wer mit dem Auto anreist, findet oben auf dem Schönenberg einen gebührenpflichtigen Burgparkplatz – die Plätze sind jedoch begrenzt.',
+        a: 'Zu Fuß erreichen Sie die Burg in ca. 15 Minuten von der Altstadt über die 332-stufige Burgstaffel. Bequemer ist der Weg über die Serpentinen-Steige durch die Weinberge. Wer mit dem Auto anreist, findet oben auf dem Schönenberg derzeit einen kostenlosen Burgparkplatz (mit Parkscheibe) – die Plätze sind jedoch begrenzt.',
       },
       {
         q: 'Ist der Eintritt zur Esslinger Burg kostenlos?',
@@ -252,7 +253,7 @@ export const faqCopy: Record<Locale, { title: string; subtitle: string; items: F
       },
       {
         q: 'Gibt es an der Burg Parkplätze, Toiletten oder Gastronomie?',
-        a: 'Oben am Burgplatz gibt es einen kleinen gebührenpflichtigen Parkplatz. Öffentliche Toiletten und Gastronomie befinden sich derzeit nicht direkt im Burggelände – nutzen Sie dafür die Angebote in der Altstadt (u. a. in den Parkhäusern und am Bahnhof).',
+        a: 'Oben am Burgplatz gibt es einen kleinen Parkplatz, der aktuell gebührenfrei mit Parkscheibe genutzt wird (Automaten außer Betrieb, Stand Oktober 2026). Öffentliche Toiletten und Gastronomie befinden sich derzeit nicht direkt im Burggelände – nutzen Sie dafür die Angebote in der Altstadt (u. a. in den Parkhäusern und am Bahnhof).',
       },
     ],
   },
@@ -266,7 +267,7 @@ export const faqCopy: Record<Locale, { title: string; subtitle: string; items: F
       },
       {
         q: 'What is the best way to get to Esslinger Burg?',
-        a: 'Walking from the old town takes about 15 minutes via the 332-step Burgstaffel. The gentler alternative is the winding Steige path through the vineyards. By car, a paid Burgparkplatz with limited spaces is available on the Schönenberg hill.',
+        a: 'Walking from the old town takes about 15 minutes via the 332-step Burgstaffel. The gentler alternative is the winding Steige path through the vineyards. By car, a currently free Burgparkplatz (with parking disc) with limited spaces is available on the Schönenberg hill.',
       },
       {
         q: 'Is it free to visit Esslinger Burg?',
@@ -282,7 +283,7 @@ export const faqCopy: Record<Locale, { title: string; subtitle: string; items: F
       },
       {
         q: 'Are there parking, toilets or food options at the castle?',
-        a: 'A small paid car park is available at the Burgplatz. There are currently no public toilets or restaurants directly inside the castle grounds – use the facilities in the old town instead, for example in the car parks or near the railway station.',
+        a: 'A small car park is available at the Burgplatz; it is currently free to use with a parking disc (ticket machines out of service, as of October 2026). There are currently no public toilets or restaurants directly inside the castle grounds – use the facilities in the old town instead, for example in the car parks or near the railway station.',
       },
     ],
   },
@@ -296,7 +297,7 @@ export const faqCopy: Record<Locale, { title: string; subtitle: string; items: F
       },
       {
         q: '去埃斯林根堡最方便的方式是什么？',
-        a: '从老城步行经 332 级台阶约 15 分钟即可抵达；不想爬台阶可走穿过葡萄园、坡度较缓的盘山小径。自驾可在山上（Schönenberg）的收费城堡停车场停车，但车位有限。',
+        a: '从老城步行经 332 级台阶约 15 分钟即可抵达；不想爬台阶可走穿过葡萄园、坡度较缓的盘山小径。自驾可在山上（Schönenberg）的城堡停车场停车，目前免费、使用停车计时盘（计费器暂停使用，2026 年 10 月核验），但车位有限。',
       },
       {
         q: '参观埃斯林根堡免费吗？',
@@ -312,7 +313,7 @@ export const faqCopy: Record<Locale, { title: string; subtitle: string; items: F
       },
       {
         q: '城堡附近有停车、厕所和餐饮吗？',
-        a: '城堡广场旁设有小型收费停车场。城堡内目前没有公共厕所与餐饮服务，可提前在老城解决，例如各停车楼和火车站附近都有公共卫生间，老城也有众多咖啡馆与餐厅。',
+        a: '城堡广场旁设有小型停车场，目前免费、使用停车计时盘（计费器暂停使用，2026 年 10 月核验）。城堡内目前没有公共厕所与餐饮服务，可提前在老城解决，例如各停车楼和火车站附近都有公共卫生间，老城也有众多咖啡馆与餐厅。',
       },
     ],
   },
