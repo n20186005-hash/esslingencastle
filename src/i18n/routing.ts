@@ -11,6 +11,10 @@ export const routing = defineRouting({
     '/terms-of-service': '/terms-of-service',
     '/cookie-settings': '/cookie-settings',
     '/esslingen-sehenswuerdigkeiten': '/esslingen-sehenswuerdigkeiten',
+    '/esslinger-burg-parken-anreise': '/esslinger-burg-parken-anreise',
+    '/esslinger-burg-geschichte': '/esslinger-burg-geschichte',
+    '/esslingen-mit-kindern': '/esslingen-mit-kindern',
+    '/esslingen-castle-guide': '/esslingen-castle-guide',
   },
 });
 

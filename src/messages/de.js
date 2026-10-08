@@ -293,7 +293,11 @@ export default {
       { "label": "Esslinger Burg Sehenswürdigkeiten", "id": "gallery" },
       { "label": "Burg Esslingen besuchen", "id": "reviews" },
       { "label": "Ausflug zur Esslinger Burg", "id": "map" },
-      { "label": "Sehenswürdigkeiten Esslingen", "href": "/esslingen-sehenswuerdigkeiten" }
+      { "label": "Sehenswürdigkeiten Esslingen", "href": "/esslingen-sehenswuerdigkeiten" },
+      { "label": "Parken & Anreise", "href": "/esslinger-burg-parken-anreise" },
+      { "label": "Geschichte der Burg", "href": "/esslinger-burg-geschichte" },
+      { "label": "Esslingen mit Kindern", "href": "/esslingen-mit-kindern" },
+      { "label": "Esslingen Castle Guide", "href": "/esslingen-castle-guide" }
     ],
     "officialResourcesTitle": "Offizielle Ressourcen & Informationen",
     "officialLinks": {
@@ -593,6 +597,266 @@ export default {
         {
           "q": "Gibt es eine kostenlose Aussichtsplattform?",
           "a": "Ja. Die Esslinger Burg mit Burgplatz und Burggarten ist ganzjährig kostenlos und rund um die Uhr geöffnet – einer der besten Panoramablicke über die Altstadt."
+        }
+      ]
+    }
+  },
+  "esslinger-burg-parken-anreise": {
+    "metaTitle": "Esslinger Burg parken & anreisen: Burgparkplatz, 332 Stufen & ÖPNV | Esslingen",
+    "metaDescription": "Anreise zur Esslinger Burg: kostenloser Burgparkplatz (mit Parkscheibe), S-Bahn S1 ab Stuttgart, Bus, Auto und der 332-stufige Burgstaffel-Aufstieg – mit Karte und Routen.",
+    "heroTitle": "Esslinger Burg parken & anreisen",
+    "heroSubtitle": "Burgparkplatz, ÖPNV, Auto und der Aufstieg über die 332 Stufen – alle Infos zur Anreise auf einen Blick.",
+    "intro": "Die Esslinger Burg thront über der Altstadt und ist bequem mit der Bahn, dem Bus, dem Auto oder zu Fuß erreichbar. Der beliebteste Aufstieg führt über die überdachte Burgstaffel mit 332 Stufen; wer es gemütlicher mag, nimmt die Serpentinen-Steige durch die Weinberge.",
+    "introMore": "Oben an der Burg gibt es derzeit einen kostenlosen Parkplatz (mit Parkscheibe); die Stadt Esslingen hat die Gebührenregelung vorübergehend ausgesetzt. Alternativ parken Sie in den Parkhäusern am Altstadtrand und laufen in 15–20 Minuten hinauf.",
+    "listTitle": "Parken & Anreise im Überblick",
+    "listSubtitle": "Vier Wege, wie Sie zur Esslinger Burg kommen.",
+    "attractions": [
+      {
+        "name": "Burgparkplatz (Schönenberg)",
+        "desc": "Der kleine Parkplatz oben am Burgplatz ist aktuell gebührenfrei und wird mit einer Parkscheibe (Parkuhr) genutzt. Die Stadt Esslingen hat die Automaten außer Betrieb gesetzt (Stand Oktober 2026). Die Plätze sind begrenzt.",
+        "tag": "Parken"
+      },
+      {
+        "name": "S-Bahn & Stadtbahn",
+        "desc": "Mit der S1 (und weiteren Linien) erreichen Sie Esslingen in etwa 15–20 Minuten direkt vom Stuttgarter Hauptbahnhof. Vom Bahnhof sind es zu Fuß rund 15 Minuten zur Burg.",
+        "tag": "ÖPNV"
+      },
+      {
+        "name": "Bus & Altstadt",
+        "desc": "Vom Bahnhof und aus der Altstadt fahren Busse in Richtung Schönenberg. Die Haltestellen sind gut ausgeschildert; der Rest des Weges führt zu Fuß über die Burgstaffel.",
+        "tag": "ÖPNV"
+      },
+      {
+        "name": "Zu Fuß / Burgstaffel",
+        "desc": "Die 332-stufige, teils überdachte Burgstaffel verbindet die Altstadt direkt mit der Burg. Der Aufstieg dauert etwa 15 Minuten und ist der schönste Weg nach oben.",
+        "tag": "Aufstieg"
+      }
+    ],
+    "routeTitle": "Aufstieg zur Burg (332 Stufen)",
+    "routeSubtitle": "So geht es von der Altstadt auf die Burg.",
+    "routeSteps": [
+      "Start an der Heugasse / am Fuß der Burgstaffel in der Altstadt",
+      "Über die 332 Stufen der überdachten Burgstaffel bergan",
+      "Oben ankommen am Burgplatz mit Burggarten und Wehrgängen",
+      "Alternativ: über die Serpentinen-Steige durch die Weinberge (ohne Stufen)",
+      "Wer mit dem Auto kommt: direkt zum Burgparkplatz und wenige Schritte zum Burggelände"
+    ],
+    "mapTitle": "Anreise & Karte",
+    "mapSubtitle": "Esslinger Burg, 73728 Esslingen am Neckar, Deutschland",
+    "backHome": "Zurück zur Esslinger Burg",
+    "faq": {
+      "title": "Häufige Fragen zur Anreise",
+      "items": [
+        {
+          "q": "Ist der Burgparkplatz wirklich kostenlos?",
+          "a": "Ja, aktuell ist der Burgparkplatz oben auf dem Schönenberg gebührenfrei und wird mit einer Parkscheibe (Parkuhr) genutzt. Die Stadt Esslingen hat die Gebührenregelung vorübergehend ausgesetzt und die Automaten außer Betrieb genommen (Stand Oktober 2026)."
+        },
+        {
+          "q": "Kann man mit dem Auto direkt zur Burg fahren?",
+          "a": "Ja, bis zum Burgparkplatz oben auf dem Schönenberg. Von dort sind es nur wenige Schritte zum Burggelände. Die Plätze sind jedoch begrenzt, vor allem an Wochenenden."
+        },
+        {
+          "q": "Wie komme ich ohne Auto von Stuttgart zur Burg?",
+          "a": "Mit der S-Bahn S1 fahren Sie in etwa 15–20 Minuten vom Stuttgarter Hauptbahnhof nach Esslingen und laufen dann in rund 15 Minuten über die Burgstaffel zur Burg."
+        },
+        {
+          "q": "Wie viele Stufen hat die Burgstaffel?",
+          "a": "Die Burgstaffel hat 332 Stufen und verbindet die Altstadt direkt mit der Esslinger Burg. Wer Stufen vermeiden möchte, nimmt die Serpentinen-Steige durch die Weinberge."
+        }
+      ]
+    }
+  },
+  "esslinger-burg-geschichte": {
+    "metaTitle": "Geschichte der Esslinger Burg: Dicker Turm, Hochwacht & Stadtmauer | Esslingen",
+    "metaDescription": "Die Geschichte der Esslinger Burg: Gründung im Mittelalter, der Dicke Turm, die Hochwacht, die Stadtbefestigung und was heute frei zugänglich ist.",
+    "heroTitle": "Geschichte der Esslinger Burg",
+    "heroSubtitle": "Vom Mittelalter bis heute – Dicker Turm, Hochwacht und die Stadtbefestigung.",
+    "intro": "Die Esslinger Burg zählt zu den ältesten und am besten erhaltenen Burganlagen im südwestdeutschen Raum. Sie entstand im 13. Jahrhundert als nördliche Bastion der Reichsstadt Esslingen und prägt bis heute das Bild der Altstadt.",
+    "introMore": "Heute sind die Außenanlagen – Burgplatz, Burggarten und Wehrgänge – ganzjährig frei zugänglich. Die Innenräume (etwa der Dicker Turm) sind im Rahmen von Führungen zu erleben.",
+    "listTitle": "Geschichte in Kürze",
+    "listSubtitle": "Die wichtigsten Stationen der Burggeschichte.",
+    "attractions": [
+      {
+        "name": "Gründung im Mittelalter",
+        "desc": "Im 13. Jahrhundert entstand die Burg als Teil der stadtesseitigen Befestigung der Reichsstadt Esslingen und sicherte den Zugang zur Stadt vom Neckar her.",
+        "tag": "Mittelalter"
+      },
+      {
+        "name": "Dicker Turm",
+        "desc": "Der markante Rundturm ist das Wahrzeichen der Burg. Er ist von außen jederzeit zu sehen; die Innenräume (Aussichtsplattform) sind aktuell im Rahmen von Führungen zugänglich.",
+        "tag": "Wahrzeichen"
+      },
+      {
+        "name": "Hochwacht & Wehranlagen",
+        "desc": "Die Hochwacht und die erhaltenen Wehrgänge zeugen von der militärischen Bedeutung der Anlage. Besonders der Seilergang entlang der Mauer ist ein beliebtes Fotomotiv.",
+        "tag": "Wehranlagen"
+      },
+      {
+        "name": "Stadtbefestigung",
+        "desc": "Die Burg war Teil der mittelalterlichen Stadtbefestigung von Esslingen. Reste der Stadtmauer und Türme sind auch in der Altstadt noch erlebbar.",
+        "tag": "Befestigung"
+      }
+    ],
+    "routeTitle": "Rundgang über die Burg",
+    "routeSubtitle": "Ein kurzer Weg zu den Highlights.",
+    "routeSteps": [
+      "Burgplatz und Burggarten – der frei zugängliche Vorplatz",
+      "Dicker Turm – das Wahrzeichen von außen betrachten",
+      "Hochwacht und Seilergang entlang der Wehrmauer",
+      "Burgstaffel abwärts zurück in die Altstadt",
+      "Optional: Führung mit Innenbesichtigung des Dicken Turms buchen"
+    ],
+    "mapTitle": "Lage & Karte",
+    "mapSubtitle": "Esslinger Burg, 73728 Esslingen am Neckar, Deutschland",
+    "backHome": "Zurück zur Esslinger Burg",
+    "faq": {
+      "title": "Häufige Fragen zur Geschichte",
+      "items": [
+        {
+          "q": "Wann wurde die Esslinger Burg gebaut?",
+          "a": "Die Burg entstand im 13. Jahrhundert als nördliche Bastion der Reichsstadt Esslingen und gehört zu den ältesten Burganlagen der Region."
+        },
+        {
+          "q": "Kann man den Dicken Turm von innen besichtigen?",
+          "a": "Die Innenräume (Aussichtsplattform) des Dicken Turms sind aktuell im Rahmen von Führungen zugänglich, zum Beispiel bei den öffentlichen Turmführungen von Esslingen Marketing. Termine prüfen Sie am besten vorab."
+        },
+        {
+          "q": "Warum ist der Eintrag frei?",
+          "a": "Die Außenanlagen der Burg – Burgplatz, Burggarten und Wehrgänge – sind öffentliches Gelände und ganzjährig kostenlos zugänglich. Nur geführte Touren können gebührenpflichtig sein."
+        },
+        {
+          "q": "Was ist der Seilergang?",
+          "a": "Der Seilergang ist ein schmaler Wehrgang entlang der Burgmauer mit Blick über die Altstadt. Er ist heute ein frei begehbarer und fotogener Teil der Außenanlagen."
+        }
+      ]
+    }
+  },
+  "esslingen-mit-kindern": {
+    "metaTitle": "Esslingen mit Kindern: Burg, Spielplätze & Neckar | Esslingen am Neckar",
+    "metaDescription": "Esslingen mit Kindern: die frei zugängliche Esslinger Burg, Spielplätze, die Neckarpromenade, Weinberge und familienfreundliche Routen – mit Karte und Tipps.",
+    "heroTitle": "Esslingen mit Kindern",
+    "heroSubtitle": "Burg, Spielplätze, Neckar und Weinberge – familienfreundliche Ausflugsziele auf einen Blick.",
+    "intro": "Esslingen ist für Familien ideal: Die Esslinger Burg ist kostenlos zugänglich, die Altstadt lädt zum Stöbern ein, und der Neckar sowie die Weinberge bieten viel Raum zum Spielen und Toben.",
+    "introMore": "Wer mit dem Kinderwagen unterwegs ist, nimmt am besten die Serpentinen-Steige durch die Weinberge statt der 332-stufigen Burgstaffel. In der Altstadt und am Hafen gibt es weitere familienfreundliche Angebote.",
+    "listTitle": "Familien-Highlights",
+    "listSubtitle": "Was Kinder und Eltern in Esslingen begeistert.",
+    "attractions": [
+      {
+        "name": "Esslinger Burg",
+        "desc": "Burgplatz, Burggarten und Wehrgänge sind frei zugänglich und laden zum Entdecken ein. Achtung: die Burgstaffel hat 332 Stufen – mit Kinderwagen lieber die Steige nutzen.",
+        "tag": "Burg"
+      },
+      {
+        "name": "Spielplätze in der Altstadt",
+        "desc": "In und um die Altstadt gibt es mehrere Spielplätze, unter anderem nahe der Neckarpromenade. Ideal für eine Pause zwischendurch.",
+        "tag": "Spielen"
+      },
+      {
+        "name": "Neckarpromenade & Hafen",
+        "desc": "Die Uferpromenade und der Hafen laden zu Spaziergängen, Bootsfahrten und Fütterungspausen ein – ebenerdig und wagenfreundlich.",
+        "tag": "Neckar"
+      },
+      {
+        "name": "Weinberge & Höhenweg",
+        "desc": "Die Serpentinen-Steige durch die Weinberge ist eine sanfte Alternative zur Burgstaffel und belohnt mit Ausblick und Platz zum Rennen.",
+        "tag": "Natur"
+      }
+    ],
+    "routeTitle": "Familien-Rundtour (halbtags)",
+    "routeSubtitle": "Eine entspannte Route ohne große Steigungen.",
+    "routeSteps": [
+      "Start an der Neckarpromenade oder am Hafen",
+      "Spielplatz-Pause in der Altstadt",
+      "Aufstieg über die Serpentinen-Steige (ohne Stufen) zur Burg",
+      "Burgplatz und Burggarten erkunden",
+      "Abstieg zur Neckarpromenade und Eis oder Picknick"
+    ],
+    "mapTitle": "Anreise & Karte",
+    "mapSubtitle": "Esslinger Burg, 73728 Esslingen am Neckar, Deutschland",
+    "backHome": "Zurück zur Esslinger Burg",
+    "faq": {
+      "title": "Häufige Fragen mit Kindern",
+      "items": [
+        {
+          "q": "Ist die Esslinger Burg kinderwagenfreundlich?",
+          "a": "Die Außenanlagen sind gut begehbar, aber die direkte Burgstaffel hat 332 Stufen. Mit Kinderwagen empfiehlt sich die Serpentinen-Steige durch die Weinberge, die ohne Stufen zur Burg führt."
+        },
+        {
+          "q": "Gibt es Spielplätze in Esslingen?",
+          "a": "Ja, unter anderem in der Altstadt und an der Neckarpromenade gibt es mehrere Spielplätze – ideal für eine Pause mit Kindern."
+        },
+        {
+          "q": "Was kostet der Besuch mit der Familie?",
+          "a": "Der Besuch der Außenanlagen der Esslinger Burg ist ganzjährig kostenlos. Nur geführte Touren können gebührenpflichtig sein."
+        },
+        {
+          "q": "Wohin bei schlechtem Wetter?",
+          "a": "Bei Regen bieten die Altstadt mit Cafés, Backstuben und Museen sowie die nahe gelegenen Hallen am Bahnhof Schutz und Beschäftigung für Kinder."
+        }
+      ]
+    }
+  },
+  "esslingen-castle-guide": {
+    "metaTitle": "Esslingen Castle Guide: Eintritt, Aufstieg & Aussicht | Esslingen",
+    "metaDescription": "Der komplette Esslingen Castle Guide: kostenloser Eintritt, 332 Stufen, Panoramablick, Anreise, Parken und Geschichte der Esslinger Burg – auf einen Blick.",
+    "heroTitle": "Esslingen Castle – der komplette Guide",
+    "heroSubtitle": "Eintritt, Aufstieg, Aussicht, Anreise und Geschichte der Esslinger Burg in einem Guide.",
+    "intro": "Esslingen Castle (Esslinger Burg) thront über der Altstadt von Esslingen am Neckar. Der Eintritt zu den Außenanlagen ist kostenlos, und von der Anlage aus genießen Sie einen der besten Panoramablicke über die Stadt.",
+    "introMore": "Dieser Guide bündelt die wichtigsten Infos: Anreise, Parken, den Aufstieg über die 332 Stufen, die Geschichte und Tipps für Familien – damit Sie Ihren Besuch gut planen können.",
+    "listTitle": "Das Wichtigste im Guide",
+    "listSubtitle": "Alle Kerninfos zur Esslinger Burg.",
+    "attractions": [
+      {
+        "name": "Eintritt & Öffnung",
+        "desc": "Die Außenanlagen (Burgplatz, Burggarten, Wehrgänge) sind ganzjährig kostenlos und rund um die Uhr geöffnet. Innenräume sind im Rahmen von Führungen zugänglich.",
+        "tag": "Eintritt"
+      },
+      {
+        "name": "Aufstieg (332 Stufen)",
+        "desc": "Die Burgstaffel verbindet die Altstadt über 332 teils überdachte Stufen mit der Burg. Alternativ führt die Serpentinen-Steige durch die Weinberge ohne Stufen.",
+        "tag": "Aufstieg"
+      },
+      {
+        "name": "Anreise & Parken",
+        "desc": "Mit der S-Bahn S1 ab Stuttgart in 15–20 Minuten in Esslingen; der Burgparkplatz oben auf dem Schönenberg ist aktuell kostenlos (mit Parkscheibe).",
+        "tag": "Anreise"
+      },
+      {
+        "name": "Aussicht & Fotos",
+        "desc": "Vom Burgplatz und den Wehrgängen (etwa dem Seilergang) bietet sich ein Panoramablick über die Altstadt, den Neckar und die Weinberge.",
+        "tag": "Aussicht"
+      }
+    ],
+    "routeTitle": "Ihr Besuch in Kürze",
+    "routeSubtitle": "So planen Sie den Burgbesuch.",
+    "routeSteps": [
+      "Anreise mit S-Bahn S1 nach Esslingen oder Auto zum Burgparkplatz",
+      "Aufstieg über die 332-stufige Burgstaffel oder die Steige",
+      "Burgplatz, Burggarten und Wehrgänge erkunden",
+      "Panoramablick vom Dicken Turm (bei Führungen) genießen",
+      "Abstieg in die Altstadt zu Cafés und Neckarpromenade"
+    ],
+    "mapTitle": "Lage & Karte",
+    "mapSubtitle": "Esslinger Burg, 73728 Esslingen am Neckar, Deutschland",
+    "backHome": "Zurück zur Esslinger Burg",
+    "faq": {
+      "title": "Häufige Fragen zum Burgbesuch",
+      "items": [
+        {
+          "q": "Kostet der Eintritt in die Esslinger Burg etwas?",
+          "a": "Nein, die Außenanlagen sind ganzjährig kostenlos zugänglich. Nur geführte Touren (z. B. mit Turmbesteigung) können gebührenpflichtig sein."
+        },
+        {
+          "q": "Wie viele Stufen hat der Aufstieg?",
+          "a": "Die Burgstaffel hat 332 Stufen. Wer Stufen vermeiden möchte, nimmt die Serpentinen-Steige durch die Weinberge."
+        },
+        {
+          "q": "Wie komme ich von Stuttgart zur Burg?",
+          "a": "Mit der S-Bahn S1 in etwa 15–20 Minuten zum Esslinger Bahnhof, dann zu Fuß rund 15 Minuten über die Burgstaffel zur Burg."
+        },
+        {
+          "q": "Ist der Dicker Turm von innen zugänglich?",
+          "a": "Die Innenräume sind aktuell im Rahmen von Führungen zugänglich, etwa bei den öffentlichen Turmführungen von Esslingen Marketing."
         }
       ]
     }

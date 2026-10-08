@@ -293,7 +293,11 @@ export default {
       { "label": "Esslinger Burg attractions", "id": "gallery" },
       { "label": "Visit Esslinger Burg", "id": "reviews" },
       { "label": "Day trip to Esslinger Burg", "id": "map" },
-      { "label": "Things to see in Esslingen", "href": "/esslingen-sehenswuerdigkeiten" }
+      { "label": "Things to see in Esslingen", "href": "/esslingen-sehenswuerdigkeiten" },
+      { "label": "Parking & getting there", "href": "/esslinger-burg-parken-anreise" },
+      { "label": "History of the castle", "href": "/esslinger-burg-geschichte" },
+      { "label": "Esslingen with children", "href": "/esslingen-mit-kindern" },
+      { "label": "Esslingen Castle guide", "href": "/esslingen-castle-guide" }
     ],
     "officialResourcesTitle": "Official Resources & Information",
     "officialLinks": {
@@ -593,6 +597,266 @@ export default {
         {
           "q": "Is there a free viewpoint?",
           "a": "Yes. Esslinger Burg with castle square and castle garden is free all year round and open around the clock – one of the best panoramic views over the old town."
+        }
+      ]
+    }
+  },
+  "esslinger-burg-parken-anreise": {
+    "metaTitle": "Esslinger Burg parking & getting there: castle car park, 332 steps & public transport | Esslingen",
+    "metaDescription": "How to get to Esslinger Burg: currently free castle car park (with parking disc), S-Bahn S1 from Stuttgart, bus, car and the 332-step Burgstaffel climb – with map and routes.",
+    "heroTitle": "Esslinger Burg parking & getting there",
+    "heroSubtitle": "Castle car park, public transport, car and the 332-step climb – all travel info at a glance.",
+    "intro": "Esslinger Burg sits above the old town and is easily reached by train, bus, car or on foot. The favourite way up is the covered Burgstaffel staircase with 332 steps; if you prefer it gentler, take the Serpentine Steige path through the vineyards.",
+    "introMore": "At the top there is currently a free car park (with parking disc); the city of Esslingen has temporarily suspended the parking charge. Alternatively, use the car parks at the edge of the old town and walk up in 15–20 minutes.",
+    "listTitle": "Parking & travel at a glance",
+    "listSubtitle": "Four ways to reach Esslinger Burg.",
+    "attractions": [
+      {
+        "name": "Castle car park (Schönenberg)",
+        "desc": "The small car park at the top by the Burgplatz is currently free and used with a parking disc. The city of Esslingen has taken the ticket machines out of service (as of October 2026). Spaces are limited.",
+        "tag": "Parking"
+      },
+      {
+        "name": "S-Bahn & regional rail",
+        "desc": "With the S1 (and other lines) you reach Esslingen in about 15–20 minutes directly from Stuttgart Hauptbahnhof. From the station it is about a 15-minute walk to the castle.",
+        "tag": "Public transport"
+      },
+      {
+        "name": "Bus & old town",
+        "desc": "From the station and the old town, buses run towards Schönenberg. Stops are well signposted; the rest of the way is on foot via the Burgstaffel.",
+        "tag": "Public transport"
+      },
+      {
+        "name": "On foot / Burgstaffel",
+        "desc": "The 332-step, partly covered Burgstaffel connects the old town directly with the castle. The climb takes about 15 minutes and is the prettiest way up.",
+        "tag": "Climb"
+      }
+    ],
+    "routeTitle": "Climb to the castle (332 steps)",
+    "routeSubtitle": "How to get from the old town up to the castle.",
+    "routeSteps": [
+      "Start at the Heugasse / foot of the Burgstaffel in the old town",
+      "Climb the 332 steps of the covered Burgstaffel",
+      "Arrive at the Burgplatz with castle garden and rampart walks",
+      "Alternative: via the Serpentine Steige through the vineyards (no steps)",
+      "By car: drive straight to the castle car park, a few steps to the grounds"
+    ],
+    "mapTitle": "Getting there & map",
+    "mapSubtitle": "Esslinger Burg, 73728 Esslingen am Neckar, Germany",
+    "backHome": "Back to Esslinger Burg",
+    "faq": {
+      "title": "Frequently asked questions about travel",
+      "items": [
+        {
+          "q": "Is the castle car park really free?",
+          "a": "Yes, the castle car park at the top of the Schönenberg is currently free and used with a parking disc. The city of Esslingen has temporarily suspended the parking charge and taken the ticket machines out of service (as of October 2026)."
+        },
+        {
+          "q": "Can you drive right up to the castle?",
+          "a": "Yes, as far as the castle car park at the top of the Schönenberg. From there it is just a few steps to the grounds. Spaces are limited, especially at weekends."
+        },
+        {
+          "q": "How do I get from Stuttgart without a car?",
+          "a": "With the S-Bahn S1 you travel from Stuttgart Hauptbahnhof to Esslingen in about 15–20 minutes, then walk up to the castle via the Burgstaffel in around 15 minutes."
+        },
+        {
+          "q": "How many steps does the Burgstaffel have?",
+          "a": "The Burgstaffel has 332 steps and connects the old town directly with Esslinger Burg. If you want to avoid steps, take the Serpentine Steige through the vineyards."
+        }
+      ]
+    }
+  },
+  "esslinger-burg-geschichte": {
+    "metaTitle": "History of Esslinger Burg: Dicker Turm, Hochwacht & town wall | Esslingen",
+    "metaDescription": "The history of Esslinger Burg: founded in the Middle Ages, the Dicker Turm, the Hochwacht, the town fortifications and what is freely accessible today.",
+    "heroTitle": "History of Esslinger Burg",
+    "heroSubtitle": "From the Middle Ages to today – Dicker Turm, Hochwacht and the town wall.",
+    "intro": "Esslinger Burg is among the oldest and best-preserved castle complexes in south-west Germany. It was built in the 13th century as the northern bastion of the imperial city of Esslingen and still shapes the image of the old town today.",
+    "introMore": "Today the outdoor areas – castle square, castle garden and rampart walks – are freely accessible all year round. The interior rooms (such as the Dicker Turm) can be experienced on guided tours.",
+    "listTitle": "History in brief",
+    "listSubtitle": "The key stages of the castle's history.",
+    "attractions": [
+      {
+        "name": "Founded in the Middle Ages",
+        "desc": "In the 13th century the castle was built as part of the town-side fortifications of the imperial city of Esslingen, securing access to the city from the Neckar.",
+        "tag": "Middle Ages"
+      },
+      {
+        "name": "Dicker Turm",
+        "desc": "The striking round tower is the castle's landmark. It can be viewed from outside at any time; the interior (viewing platform) is currently open on guided tours.",
+        "tag": "Landmark"
+      },
+      {
+        "name": "Hochwacht & defences",
+        "desc": "The Hochwacht and the preserved rampart walks testify to the military importance of the site. The Seilergang along the wall is a popular photo motif.",
+        "tag": "Defences"
+      },
+      {
+        "name": "Town fortifications",
+        "desc": "The castle was part of the medieval town fortifications of Esslingen. Remains of the town wall and towers are still visible in the old town.",
+        "tag": "Fortifications"
+      }
+    ],
+    "routeTitle": "Walking tour of the castle",
+    "routeSubtitle": "A short route to the highlights.",
+    "routeSteps": [
+      "Castle square and castle garden – the freely accessible forecourt",
+      "Dicker Turm – view the landmark from outside",
+      "Hochwacht and Seilergang along the defence wall",
+      "Descend the Burgstaffel back into the old town",
+      "Optional: book a tour with interior visit of the Dicker Turm"
+    ],
+    "mapTitle": "Location & map",
+    "mapSubtitle": "Esslinger Burg, 73728 Esslingen am Neckar, Germany",
+    "backHome": "Back to Esslinger Burg",
+    "faq": {
+      "title": "Frequently asked questions about the history",
+      "items": [
+        {
+          "q": "When was Esslinger Burg built?",
+          "a": "The castle was built in the 13th century as the northern bastion of the imperial city of Esslingen and is among the oldest castle complexes in the region."
+        },
+        {
+          "q": "Can you see the Dicker Turm from inside?",
+          "a": "The interior (viewing platform) of the Dicker Turm is currently open on guided tours, for example on the public tower tours run by Esslingen Marketing. Check dates in advance."
+        },
+        {
+          "q": "Why is entry free?",
+          "a": "The castle's outdoor areas – castle square, castle garden and rampart walks – are public ground and freely accessible all year round. Only guided tours may be charged."
+        },
+        {
+          "q": "What is the Seilergang?",
+          "a": "The Seilergang is a narrow defensive walkway along the castle wall with a view over the old town. Today it is a freely walkable and photogenic part of the outdoor areas."
+        }
+      ]
+    }
+  },
+  "esslingen-mit-kindern": {
+    "metaTitle": "Esslingen with children: castle, playgrounds & Neckar | Esslingen am Neckar",
+    "metaDescription": "Esslingen with children: the free Esslinger Burg, playgrounds, the Neckar promenade, vineyards and family-friendly routes – with map and tips.",
+    "heroTitle": "Esslingen with children",
+    "heroSubtitle": "Castle, playgrounds, Neckar and vineyards – family-friendly destinations at a glance.",
+    "intro": "Esslingen is ideal for families: Esslinger Burg is free to visit, the old town invites you to browse, and the Neckar and vineyards offer plenty of space to play and roam.",
+    "introMore": "If you are out with a pushchair, take the Serpentine Steige through the vineyards rather than the 332-step Burgstaffel. The old town and harbour offer further family-friendly options.",
+    "listTitle": "Family highlights",
+    "listSubtitle": "What delights children and parents in Esslingen.",
+    "attractions": [
+      {
+        "name": "Esslinger Burg",
+        "desc": "Castle square, castle garden and rampart walks are freely accessible and invite exploration. Note: the Burgstaffel has 332 steps – with a pushchair, use the Steige instead.",
+        "tag": "Castle"
+      },
+      {
+        "name": "Playgrounds in the old town",
+        "desc": "There are several playgrounds in and around the old town, for example near the Neckar promenade. Ideal for a break in between.",
+        "tag": "Play"
+      },
+      {
+        "name": "Neckar promenade & harbour",
+        "desc": "The riverside promenade and harbour invite walks, boat trips and feeding breaks – level and pushchair-friendly.",
+        "tag": "Neckar"
+      },
+      {
+        "name": "Vineyards & Höhenweg",
+        "desc": "The Serpentine Steige through the vineyards is a gentle alternative to the Burgstaffel and rewards you with views and space to run around.",
+        "tag": "Nature"
+      }
+    ],
+    "routeTitle": "Family round tour (half day)",
+    "routeSubtitle": "A relaxed route without big climbs.",
+    "routeSteps": [
+      "Start at the Neckar promenade or the harbour",
+      "Playground break in the old town",
+      "Climb via the Serpentine Steige (no steps) to the castle",
+      "Explore the castle square and castle garden",
+      "Descend to the Neckar promenade for ice cream or a picnic"
+    ],
+    "mapTitle": "Getting there & map",
+    "mapSubtitle": "Esslinger Burg, 73728 Esslingen am Neckar, Germany",
+    "backHome": "Back to Esslinger Burg",
+    "faq": {
+      "title": "Frequently asked questions with children",
+      "items": [
+        {
+          "q": "Is Esslinger Burg pushchair-friendly?",
+          "a": "The outdoor areas are easy to walk, but the direct Burgstaffel has 332 steps. With a pushchair the Serpentine Steige through the vineyards is recommended, as it reaches the castle without steps."
+        },
+        {
+          "q": "Are there playgrounds in Esslingen?",
+          "a": "Yes, for example in the old town and along the Neckar promenade there are several playgrounds – ideal for a break with children."
+        },
+        {
+          "q": "What does a family visit cost?",
+          "a": "Visiting the outdoor areas of Esslinger Burg is free all year round. Only guided tours may be charged."
+        },
+        {
+          "q": "Where to go in bad weather?",
+          "a": "In the rain, the old town with cafés, bakeries and museums, as well as the halls near the station, offer shelter and things to do for children."
+        }
+      ]
+    }
+  },
+  "esslingen-castle-guide": {
+    "metaTitle": "Esslingen Castle Guide: free entry, 332 steps & view | Esslingen",
+    "metaDescription": "The complete Esslingen Castle (Esslinger Burg) guide: free entry, the 332-step Burgstaffel, panoramic views, how to get there, parking and history.",
+    "heroTitle": "Esslingen Castle – the complete guide",
+    "heroSubtitle": "Entry, climb, view, getting there and history of Esslinger Burg in one guide.",
+    "intro": "Esslingen Castle (Esslinger Burg) rises above the old town of Esslingen am Neckar. Entry to the outdoor areas is free, and from the site you enjoy one of the best panoramic views over the town.",
+    "introMore": "This guide bundles the key information: getting there, parking, the 332-step climb, the history and tips for families – so you can plan your visit well.",
+    "listTitle": "The essentials in the guide",
+    "listSubtitle": "All the core information about Esslinger Burg.",
+    "attractions": [
+      {
+        "name": "Entry & opening",
+        "desc": "The outdoor areas (castle square, castle garden, rampart walks) are free all year round and open around the clock. Interior rooms are accessible on guided tours.",
+        "tag": "Entry"
+      },
+      {
+        "name": "Climb (332 steps)",
+        "desc": "The Burgstaffel connects the old town with the castle via 332 partly covered steps. Alternatively, the Serpentine Steige through the vineyards has no steps.",
+        "tag": "Climb"
+      },
+      {
+        "name": "Getting there & parking",
+        "desc": "With the S-Bahn S1 from Stuttgart, Esslingen is 15–20 minutes away; the castle car park at the top of the Schönenberg is currently free (with parking disc).",
+        "tag": "Travel"
+      },
+      {
+        "name": "View & photos",
+        "desc": "From the castle square and the rampart walks (such as the Seilergang) there is a panoramic view over the old town, the Neckar and the vineyards.",
+        "tag": "View"
+      }
+    ],
+    "routeTitle": "Your visit in brief",
+    "routeSubtitle": "How to plan your castle visit.",
+    "routeSteps": [
+      "Travel by S-Bahn S1 to Esslingen or by car to the castle car park",
+      "Climb via the 332-step Burgstaffel or the Steige",
+      "Explore the castle square, castle garden and rampart walks",
+      "Enjoy the view from the Dicker Turm (on tours)",
+      "Descend into the old town for cafés and the Neckar promenade"
+    ],
+    "mapTitle": "Location & map",
+    "mapSubtitle": "Esslinger Burg, 73728 Esslingen am Neckar, Germany",
+    "backHome": "Back to Esslinger Burg",
+    "faq": {
+      "title": "Frequently asked questions about the visit",
+      "items": [
+        {
+          "q": "Does entry to Esslinger Burg cost anything?",
+          "a": "No, the outdoor areas are free all year round. Only guided tours (e.g. with tower climb) may be charged."
+        },
+        {
+          "q": "How many steps is the climb?",
+          "a": "The Burgstaffel has 332 steps. If you want to avoid steps, take the Serpentine Steige through the vineyards."
+        },
+        {
+          "q": "How do I get from Stuttgart to the castle?",
+          "a": "With the S-Bahn S1 you reach Esslingen station in about 15–20 minutes, then walk up to the castle via the Burgstaffel in around 15 minutes."
+        },
+        {
+          "q": "Is the Dicker Turm accessible from inside?",
+          "a": "The interior is currently open on guided tours, for example on the public tower tours run by Esslingen Marketing."
         }
       ]
     }

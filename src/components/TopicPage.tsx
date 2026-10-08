@@ -4,10 +4,20 @@ import { siteFacts } from '@/content/esslinger-burg';
 type Attraction = { name: string; desc: string; tag: string };
 type FaqItem = { q: string; a: string };
 
-export default function SehenswuerdigkeitenPage({ locale }: { locale: string }) {
-  const t = useTranslations('sehenswuerdigkeiten');
+export default function TopicPage({
+  namespace,
+  locale,
+  heroImage,
+}: {
+  namespace: string;
+  locale: string;
+  heroImage?: string;
+}) {
+  const t = useTranslations(namespace);
   const homeHref = locale === 'zh' ? '/zh' : `/${locale}`;
-  const homeLabel = locale === 'de' ? 'Esslinger Burg' : locale === 'en' ? 'Esslinger Burg' : '埃斯林根堡';
+  const homeLabel =
+    locale === 'de' ? 'Esslinger Burg' : locale === 'en' ? 'Esslinger Burg' : '埃斯林根堡';
+  const image = heroImage ?? '/gallery/esslingen-castle (1).jpg';
 
   const attractions = t.raw('attractions') as Attraction[];
   const steps = t.raw('routeSteps') as string[];
@@ -18,17 +28,17 @@ export default function SehenswuerdigkeitenPage({ locale }: { locale: string }) 
       {/* Hero */}
       <section className="relative min-h-[58vh] flex items-end pb-16 overflow-hidden">
         <div className="absolute inset-0">
-          <img
-            src="/gallery/esslingen-castle (1).jpg"
-            alt={t('heroTitle')}
-            className="w-full h-full object-cover"
-          />
+          <img src={image} alt={t('heroTitle')} className="w-full h-full object-cover" />
           <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />
         </div>
         <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 w-full">
           <nav className="mb-4 text-sm text-white/80">
-            <a href={homeHref} className="hover:underline">{homeLabel}</a>
-            <span className="mx-2" aria-hidden>·</span>
+            <a href={homeHref} className="hover:underline">
+              {homeLabel}
+            </a>
+            <span className="mx-2" aria-hidden>
+              ·
+            </span>
             {t('heroTitle')}
           </nav>
           <h1 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight mb-3">
@@ -49,12 +59,17 @@ export default function SehenswuerdigkeitenPage({ locale }: { locale: string }) 
           </p>
         </section>
 
-        {/* Attractions */}
+        {/* Cards / attractions */}
         <section>
-          <h2 className="font-display text-2xl sm:text-3xl font-bold mb-2" style={{ color: 'var(--text-primary)' }}>
+          <h2
+            className="font-display text-2xl sm:text-3xl font-bold mb-2"
+            style={{ color: 'var(--text-primary)' }}
+          >
             {t('listTitle')}
           </h2>
-          <p className="mb-8" style={{ color: 'var(--text-muted)' }}>{t('listSubtitle')}</p>
+          <p className="mb-8" style={{ color: 'var(--text-muted)' }}>
+            {t('listSubtitle')}
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {attractions.map((a, i) => (
               <div
@@ -68,21 +83,31 @@ export default function SehenswuerdigkeitenPage({ locale }: { locale: string }) 
                 >
                   {a.tag}
                 </span>
-                <h3 className="font-display text-xl font-semibold mb-2" style={{ color: 'var(--text-primary)' }}>
+                <h3
+                  className="font-display text-xl font-semibold mb-2"
+                  style={{ color: 'var(--text-primary)' }}
+                >
                   {a.name}
                 </h3>
-                <p className="leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{a.desc}</p>
+                <p className="leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+                  {a.desc}
+                </p>
               </div>
             ))}
           </div>
         </section>
 
-        {/* Route */}
+        {/* Route / steps */}
         <section>
-          <h2 className="font-display text-2xl sm:text-3xl font-bold mb-2" style={{ color: 'var(--text-primary)' }}>
+          <h2
+            className="font-display text-2xl sm:text-3xl font-bold mb-2"
+            style={{ color: 'var(--text-primary)' }}
+          >
             {t('routeTitle')}
           </h2>
-          <p className="mb-6" style={{ color: 'var(--text-muted)' }}>{t('routeSubtitle')}</p>
+          <p className="mb-6" style={{ color: 'var(--text-muted)' }}>
+            {t('routeSubtitle')}
+          </p>
           <ol className="space-y-4 max-w-3xl">
             {steps.map((s, i) => (
               <li key={i} className="flex gap-4 items-start">
@@ -92,7 +117,9 @@ export default function SehenswuerdigkeitenPage({ locale }: { locale: string }) 
                 >
                   {i + 1}
                 </span>
-                <span className="pt-1 leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{s}</span>
+                <span className="pt-1 leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+                  {s}
+                </span>
               </li>
             ))}
           </ol>
@@ -100,11 +127,19 @@ export default function SehenswuerdigkeitenPage({ locale }: { locale: string }) 
 
         {/* Map */}
         <section>
-          <h2 className="font-display text-2xl sm:text-3xl font-bold mb-2" style={{ color: 'var(--text-primary)' }}>
+          <h2
+            className="font-display text-2xl sm:text-3xl font-bold mb-2"
+            style={{ color: 'var(--text-primary)' }}
+          >
             {t('mapTitle')}
           </h2>
-          <p className="mb-6" style={{ color: 'var(--text-muted)' }}>{t('mapSubtitle')}</p>
-          <div className="rounded-2xl overflow-hidden" style={{ border: '1px solid var(--border-color)' }}>
+          <p className="mb-6" style={{ color: 'var(--text-muted)' }}>
+            {t('mapSubtitle')}
+          </p>
+          <div
+            className="rounded-2xl overflow-hidden"
+            style={{ border: '1px solid var(--border-color)' }}
+          >
             <iframe
               title={t('mapTitle')}
               src={siteFacts.mapsEmbedSrc}
@@ -118,13 +153,18 @@ export default function SehenswuerdigkeitenPage({ locale }: { locale: string }) 
 
         {/* FAQ */}
         <section>
-          <h2 className="font-display text-2xl sm:text-3xl font-bold mb-6" style={{ color: 'var(--text-primary)' }}>
+          <h2
+            className="font-display text-2xl sm:text-3xl font-bold mb-6"
+            style={{ color: 'var(--text-primary)' }}
+          >
             {t('faq.title')}
           </h2>
           <div className="space-y-6 max-w-3xl">
             {faqItems.map((f, i) => (
               <div key={i}>
-                <h3 className="font-semibold mb-1.5" style={{ color: 'var(--text-primary)' }}>{f.q}</h3>
+                <h3 className="font-semibold mb-1.5" style={{ color: 'var(--text-primary)' }}>
+                  {f.q}
+                </h3>
                 <p className="leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{f.a}</p>
               </div>
             ))}

@@ -8,7 +8,7 @@ import {
   topicLocales,
 } from '@/lib/topic';
 
-const NAMESPACE = 'sehenswuerdigkeiten';
+const NAMESPACE = 'esslingen-mit-kindern';
 
 export async function generateStaticParams() {
   return topicLocales.map((locale) => ({ locale }));
@@ -24,7 +24,7 @@ export async function generateMetadata({
   return buildTopicMetadata({ namespace: NAMESPACE, locale, messages });
 }
 
-export default async function SehenswuerdigkeitenRoute({
+export default async function Route({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -44,7 +44,11 @@ export default async function SehenswuerdigkeitenRoute({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
         />
       ))}
-      <TopicPage namespace={NAMESPACE} locale={locale} />
+      <TopicPage
+        namespace={NAMESPACE}
+        locale={locale}
+        heroImage="/gallery/esslingen-castle (5).jpg"
+      />
     </>
   );
 }
